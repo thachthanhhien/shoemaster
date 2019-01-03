@@ -1,0 +1,24 @@
+$(
+ *  TITLE               MEASURES FIA SHOW
+ *  FUNCTION            Replace the FIA 3d last measures in the menus
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure 'Overall Length (FIA)'                  active
+last measure 'Horizontal Ball Width (FIA)'           active
+last measure 'Heel to Inner Ball Length (FIA)'       active
+last measure 'Ball Girth (FIA)'                      active
+last measure 'Heel Width (FIA)'                      active
+last measure 'Instep Girth (FIA)'                    active
+last measure 'Instep Height (RR)'                    active
+last measure 'Instep to Heel Girth (FIA)'            active
+last measure 'Heel to Outer Ball (FIA)'              active
+last measure 'Instep Opening Girth (FIA)'            active
+last measure 'Inner mid-toe distance (FIA)'          active
+last measure 'Outer mid-toe distance (FIA)'          active
+last measure 'Waist Girth (FIA)'                     active
+
+$.

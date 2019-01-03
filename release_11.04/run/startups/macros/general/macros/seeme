@@ -1,0 +1,45 @@
+$(
+ *  TITLE               SEE ME
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$(         Macro to create box end label type diagram       $)
+$(         Martin Buckner - 13.9.93                         $)
+$(         $d1 = bearing                                    $)
+$(         $d2 = elevation                                  $)
+$(         $d3 = topline(s) line number                     $)
+
+$d1 = -45 
+$d2 = 30
+$d3 = 1
+be $1
+el $2
+scale three to 1
+scale three centre last
+linestyle highlight 37 5 0.8
+for line all [ highlight line upper ]
+line -1
+highlight line upper
+linestyle highlight 37 5 0 0
+highlight silhouette
+enable  hidden
+linestyle highlight 37 5 0 0.6            
+for line $3 [ highlight line upper ]
+disable hidden
+$.
+
+
+section spacing 30 30;
+section radius 1;
+section thickness 3;
+
+
+new mesh u spacing .25
+new mesh v spacing 1
+new mesh
+highlight all lines upper
+$p select your style

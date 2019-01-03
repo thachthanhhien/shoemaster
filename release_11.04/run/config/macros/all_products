@@ -1,0 +1,12 @@
+$(
+ *  TITLE               ALL PRODUCTS
+ *  FUNCTION            Configuration macro for all products
+ *
+ *  AUTHOR              Patrick Brooke 13 Sep   2001 Cambridge
+ *  MODIFICATIONS
+ *
+$)
+
+$n //release/run/config/macros/directory_status_<p>
+$n //release/run/config/macros/view_status_<p>
+$.

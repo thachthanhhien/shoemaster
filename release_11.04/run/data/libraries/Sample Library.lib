@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<library type="last">
+    <column type="fileName" width="100">Name</column>
+    <column type="lastSizeFit" width="70">Size &amp; Fit</column>
+    <column type="lastMeasure" width="70" measure_key="STICKLENGTHCLARKS">Stick Length</column>
+    <column type="lastMeasure" width="70" measure_key="STICKWIDTH">Stick Width</column>
+    <column type="lastMeasure" width="70" measure_key="HEELTOTOE">Heel to Toe</column>
+    <column type="lastMeasure" width="70" measure_key="JOINTGIRTH">Joint Girth</column>
+    <column type="lastMeasure" width="70" measure_key="INSTEPGIRTHCLARKS">Instep Girth</column>
+    <column type="lastMeasure" width="70" measure_key="SHORTBALL">Short Heel</column>
+    <column type="lastMeasure" width="70" measure_key="HEELWIDTHCLARKS">Heel Width</column>
+    <column type="lastMeasure" width="70" measure_key="BLOCKPITCH">Block Pitch</column>
+    <column type="lastMeasure" width="70" measure_key="TOESPRING">Toe Spring</column>
+    <file>
+        <internal_data name="lastCalculated">1275650067</internal_data>
+        <internal_data name="path">run/data/lasts/boot/foot last 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">16.997721</internal_data>
+            <internal_data name="measure_HEELTOTOE">264.919983</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">123.639153</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">247.046371</internal_data>
+            <internal_data name="measure_JOINTGIRTH">235.499908</internal_data>
+            <internal_data name="measure_SHORTBALL">148.344879</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.958771</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.710159</internal_data>
+            <internal_data name="measure_TOESPRING">16.997721</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650068</internal_data>
+        <internal_data name="path">run/data/lasts/boot/heavy boot 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">21.525932</internal_data>
+            <internal_data name="measure_HEELTOTOE">269.614441</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">114.414719</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">265.550354</internal_data>
+            <internal_data name="measure_JOINTGIRTH">259.679535</internal_data>
+            <internal_data name="measure_SHORTBALL">158.159180</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">270.722961</internal_data>
+            <internal_data name="measure_STICKWIDTH">98.057617</internal_data>
+            <internal_data name="measure_TOESPRING">21.525932</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650068</internal_data>
+        <internal_data name="path">run/data/lasts/boot/heavy boot 2.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.518150</internal_data>
+            <internal_data name="measure_HEELTOTOE">265.069489</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">71.030342</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">256.165070</internal_data>
+            <internal_data name="measure_JOINTGIRTH">246.445557</internal_data>
+            <internal_data name="measure_SHORTBALL">146.320984</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">267.515350</internal_data>
+            <internal_data name="measure_STICKWIDTH">97.505432</internal_data>
+            <internal_data name="measure_TOESPRING">17.518150</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650068</internal_data>
+        <internal_data name="path">run/data/lasts/boot/heavy boot 3.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.248823</internal_data>
+            <internal_data name="measure_HEELTOTOE">264.621826</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">62.844543</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">258.367859</internal_data>
+            <internal_data name="measure_JOINTGIRTH">236.497559</internal_data>
+            <internal_data name="measure_SHORTBALL">147.250504</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">264.194580</internal_data>
+            <internal_data name="measure_STICKWIDTH">88.758034</internal_data>
+            <internal_data name="measure_TOESPRING">17.248823</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650069</internal_data>
+        <internal_data name="path">run/data/lasts/boot/heavy boot 4.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">16.356737</internal_data>
+            <internal_data name="measure_HEELTOTOE">261.908051</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">60.107567</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">254.195389</internal_data>
+            <internal_data name="measure_JOINTGIRTH">229.063004</internal_data>
+            <internal_data name="measure_SHORTBALL">153.478378</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.407928</internal_data>
+            <internal_data name="measure_STICKWIDTH">84.846512</internal_data>
+            <internal_data name="measure_TOESPRING">16.356737</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650069</internal_data>
+        <internal_data name="path">run/data/lasts/boot/heavy boot 5.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">15.364115</internal_data>
+            <internal_data name="measure_HEELTOTOE">264.430298</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">130.795761</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">234.216202</internal_data>
+            <internal_data name="measure_JOINTGIRTH">230.268066</internal_data>
+            <internal_data name="measure_SHORTBALL">151.593979</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">269.857849</internal_data>
+            <internal_data name="measure_STICKWIDTH">89.254990</internal_data>
+            <internal_data name="measure_TOESPRING">15.364115</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650069</internal_data>
+        <internal_data name="path">run/data/lasts/boot/heavy boot 6.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">20.572836</internal_data>
+            <internal_data name="measure_HEELTOTOE">265.909973</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">81.684769</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">244.096863</internal_data>
+            <internal_data name="measure_JOINTGIRTH">245.593597</internal_data>
+            <internal_data name="measure_SHORTBALL">143.602982</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.849640</internal_data>
+            <internal_data name="measure_STICKWIDTH">96.936493</internal_data>
+            <internal_data name="measure_TOESPRING">20.710642</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650070</internal_data>
+        <internal_data name="path">run/data/lasts/boot/heavy boot 7.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">22.463844</internal_data>
+            <internal_data name="measure_HEELTOTOE">274.539429</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">105.192459</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">249.165451</internal_data>
+            <internal_data name="measure_JOINTGIRTH">255.412277</internal_data>
+            <internal_data name="measure_SHORTBALL">147.528076</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">272.832489</internal_data>
+            <internal_data name="measure_STICKWIDTH">101.759872</internal_data>
+            <internal_data name="measure_TOESPRING">22.463844</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650070</internal_data>
+        <internal_data name="path">run/data/lasts/boot/light boot 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">16.590219</internal_data>
+            <internal_data name="measure_HEELTOTOE">264.830444</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.494133</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">246.917862</internal_data>
+            <internal_data name="measure_JOINTGIRTH">235.761169</internal_data>
+            <internal_data name="measure_SHORTBALL">139.985275</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.107269</internal_data>
+            <internal_data name="measure_STICKWIDTH">92.121155</internal_data>
+            <internal_data name="measure_TOESPRING">16.590219</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650070</internal_data>
+        <internal_data name="path">run/data/lasts/boot/light boot 2.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">18.708008</internal_data>
+            <internal_data name="measure_HEELTOTOE">262.954010</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">65.992302</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">262.841827</internal_data>
+            <internal_data name="measure_JOINTGIRTH">249.260223</internal_data>
+            <internal_data name="measure_SHORTBALL">143.784317</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.843292</internal_data>
+            <internal_data name="measure_STICKWIDTH">92.602242</internal_data>
+            <internal_data name="measure_TOESPRING">18.708008</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650071</internal_data>
+        <internal_data name="path">run/data/lasts/boot/light boot 3.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.895811</internal_data>
+            <internal_data name="measure_HEELTOTOE">263.983582</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">65.472649</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">261.269135</internal_data>
+            <internal_data name="measure_JOINTGIRTH">250.104340</internal_data>
+            <internal_data name="measure_SHORTBALL">141.142944</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.082428</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.686539</internal_data>
+            <internal_data name="measure_TOESPRING">17.895811</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650071</internal_data>
+        <internal_data name="path">run/data/lasts/boot/light boot 4.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">13.227462</internal_data>
+            <internal_data name="measure_HEELTOTOE">263.201447</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">74.674164</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">277.307220</internal_data>
+            <internal_data name="measure_JOINTGIRTH">255.539642</internal_data>
+            <internal_data name="measure_SHORTBALL">152.652237</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">264.314484</internal_data>
+            <internal_data name="measure_STICKWIDTH">96.587631</internal_data>
+            <internal_data name="measure_TOESPRING">13.227462</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650072</internal_data>
+        <internal_data name="path">run/data/lasts/boot/light boot 5.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.895811</internal_data>
+            <internal_data name="measure_HEELTOTOE">263.983582</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">65.472649</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">261.269135</internal_data>
+            <internal_data name="measure_JOINTGIRTH">250.104340</internal_data>
+            <internal_data name="measure_SHORTBALL">141.142944</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.082428</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.686539</internal_data>
+            <internal_data name="measure_TOESPRING">17.895811</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650072</internal_data>
+        <internal_data name="path">run/data/lasts/boot/light boot 6.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">19.245913</internal_data>
+            <internal_data name="measure_HEELTOTOE">268.151245</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.509659</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">247.222839</internal_data>
+            <internal_data name="measure_JOINTGIRTH">250.099731</internal_data>
+            <internal_data name="measure_SHORTBALL">150.434433</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">273.170654</internal_data>
+            <internal_data name="measure_STICKWIDTH">102.327301</internal_data>
+            <internal_data name="measure_TOESPRING">17.968828</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650072</internal_data>
+        <internal_data name="path">run/data/lasts/boot/light boot 7.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">19.532307</internal_data>
+            <internal_data name="measure_HEELTOTOE">260.005707</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">65.192108</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">258.537262</internal_data>
+            <internal_data name="measure_JOINTGIRTH">230.966156</internal_data>
+            <internal_data name="measure_SHORTBALL">144.662231</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">266.339111</internal_data>
+            <internal_data name="measure_STICKWIDTH">88.359428</internal_data>
+            <internal_data name="measure_TOESPRING">19.532307</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650073</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.520872</internal_data>
+            <internal_data name="measure_HEELTOTOE">265.464020</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">65.138229</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">248.994781</internal_data>
+            <internal_data name="measure_JOINTGIRTH">245.309204</internal_data>
+            <internal_data name="measure_SHORTBALL">143.030243</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">269.799622</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.334877</internal_data>
+            <internal_data name="measure_TOESPRING">17.520872</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650073</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 10.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.059875</internal_data>
+            <internal_data name="measure_HEELTOTOE">260.366058</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">68.531029</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">265.783447</internal_data>
+            <internal_data name="measure_JOINTGIRTH">242.746246</internal_data>
+            <internal_data name="measure_SHORTBALL">152.188110</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">263.270050</internal_data>
+            <internal_data name="measure_STICKWIDTH">93.431046</internal_data>
+            <internal_data name="measure_TOESPRING">17.059875</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650073</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 11.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">15.488255</internal_data>
+            <internal_data name="measure_HEELTOTOE">265.334503</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">67.162445</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">253.092148</internal_data>
+            <internal_data name="measure_JOINTGIRTH">251.469849</internal_data>
+            <internal_data name="measure_SHORTBALL">148.667282</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">270.584229</internal_data>
+            <internal_data name="measure_STICKWIDTH">97.281464</internal_data>
+            <internal_data name="measure_TOESPRING">15.488255</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650074</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 12.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.384956</internal_data>
+            <internal_data name="measure_HEELTOTOE">270.932861</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">106.574806</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">244.489822</internal_data>
+            <internal_data name="measure_JOINTGIRTH">228.814163</internal_data>
+            <internal_data name="measure_SHORTBALL">160.175507</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">270.000488</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.427307</internal_data>
+            <internal_data name="measure_TOESPRING">17.384956</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650074</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 13.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.747320</internal_data>
+            <internal_data name="measure_HEELTOTOE">259.990417</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">70.458870</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">271.464020</internal_data>
+            <internal_data name="measure_JOINTGIRTH">257.569641</internal_data>
+            <internal_data name="measure_SHORTBALL">139.948914</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.167145</internal_data>
+            <internal_data name="measure_STICKWIDTH">98.735214</internal_data>
+            <internal_data name="measure_TOESPRING">17.747320</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650074</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 14.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">14.018598</internal_data>
+            <internal_data name="measure_HEELTOTOE">260.517426</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.819595</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">252.889206</internal_data>
+            <internal_data name="measure_JOINTGIRTH">248.351212</internal_data>
+            <internal_data name="measure_SHORTBALL">140.943909</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">264.301636</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.541641</internal_data>
+            <internal_data name="measure_TOESPRING">14.018598</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650075</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 15.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">15.009078</internal_data>
+            <internal_data name="measure_HEELTOTOE">262.970917</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">64.603683</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">241.873276</internal_data>
+            <internal_data name="measure_JOINTGIRTH">240.328812</internal_data>
+            <internal_data name="measure_SHORTBALL">148.047058</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.989014</internal_data>
+            <internal_data name="measure_STICKWIDTH">89.664574</internal_data>
+            <internal_data name="measure_TOESPRING">15.009078</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650075</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 16.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">18.616943</internal_data>
+            <internal_data name="measure_HEELTOTOE">262.897583</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">136.956406</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">246.677292</internal_data>
+            <internal_data name="measure_JOINTGIRTH">234.788788</internal_data>
+            <internal_data name="measure_SHORTBALL">153.334564</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.770203</internal_data>
+            <internal_data name="measure_STICKWIDTH">92.214600</internal_data>
+            <internal_data name="measure_TOESPRING">18.616943</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650076</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 17.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">16.484911</internal_data>
+            <internal_data name="measure_HEELTOTOE">261.310791</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.402824</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">242.135544</internal_data>
+            <internal_data name="measure_JOINTGIRTH">239.104019</internal_data>
+            <internal_data name="measure_SHORTBALL">145.026703</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">262.298248</internal_data>
+            <internal_data name="measure_STICKWIDTH">90.614288</internal_data>
+            <internal_data name="measure_TOESPRING">16.484911</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650076</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 18.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">20.280622</internal_data>
+            <internal_data name="measure_HEELTOTOE">261.392883</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">63.329479</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">262.863678</internal_data>
+            <internal_data name="measure_JOINTGIRTH">242.942322</internal_data>
+            <internal_data name="measure_SHORTBALL">146.282623</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">263.120117</internal_data>
+            <internal_data name="measure_STICKWIDTH">91.360062</internal_data>
+            <internal_data name="measure_TOESPRING">20.280622</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650076</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 19.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.539085</internal_data>
+            <internal_data name="measure_HEELTOTOE">248.668640</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">68.235985</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">242.383575</internal_data>
+            <internal_data name="measure_JOINTGIRTH">247.653870</internal_data>
+            <internal_data name="measure_SHORTBALL">135.897171</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">262.003021</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.782837</internal_data>
+            <internal_data name="measure_TOESPRING">17.539085</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650077</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 2.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">13.290117</internal_data>
+            <internal_data name="measure_HEELTOTOE">262.446228</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">131.794800</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">227.563477</internal_data>
+            <internal_data name="measure_JOINTGIRTH">227.668518</internal_data>
+            <internal_data name="measure_SHORTBALL">147.516724</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">266.103180</internal_data>
+            <internal_data name="measure_STICKWIDTH">91.503769</internal_data>
+            <internal_data name="measure_TOESPRING">13.290117</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650077</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 20.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.077572</internal_data>
+            <internal_data name="measure_HEELTOTOE">257.494598</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">64.030983</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">255.478149</internal_data>
+            <internal_data name="measure_JOINTGIRTH">240.026779</internal_data>
+            <internal_data name="measure_SHORTBALL">144.030899</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">262.187134</internal_data>
+            <internal_data name="measure_STICKWIDTH">91.874802</internal_data>
+            <internal_data name="measure_TOESPRING">17.077572</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650077</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 21.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">13.301885</internal_data>
+            <internal_data name="measure_HEELTOTOE">263.058167</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">73.231857</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">281.376648</internal_data>
+            <internal_data name="measure_JOINTGIRTH">257.581085</internal_data>
+            <internal_data name="measure_SHORTBALL">150.728058</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">264.342773</internal_data>
+            <internal_data name="measure_STICKWIDTH">97.109833</internal_data>
+            <internal_data name="measure_TOESPRING">13.301885</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650078</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 22.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">18.688673</internal_data>
+            <internal_data name="measure_HEELTOTOE">262.939392</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.050323</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">251.130417</internal_data>
+            <internal_data name="measure_JOINTGIRTH">244.405823</internal_data>
+            <internal_data name="measure_SHORTBALL">147.817795</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.841919</internal_data>
+            <internal_data name="measure_STICKWIDTH">92.503677</internal_data>
+            <internal_data name="measure_TOESPRING">18.688673</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650078</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 3.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">11.630223</internal_data>
+            <internal_data name="measure_HEELTOTOE">266.672699</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">65.819313</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">252.963120</internal_data>
+            <internal_data name="measure_JOINTGIRTH">253.417892</internal_data>
+            <internal_data name="measure_SHORTBALL">145.740982</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">269.627655</internal_data>
+            <internal_data name="measure_STICKWIDTH">101.193069</internal_data>
+            <internal_data name="measure_TOESPRING">11.630223</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650079</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 4.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.390945</internal_data>
+            <internal_data name="measure_HEELTOTOE">269.614319</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">99.723251</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">248.942459</internal_data>
+            <internal_data name="measure_JOINTGIRTH">243.637115</internal_data>
+            <internal_data name="measure_SHORTBALL">138.483627</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.955200</internal_data>
+            <internal_data name="measure_STICKWIDTH">93.839310</internal_data>
+            <internal_data name="measure_TOESPRING">17.390945</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650079</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 5.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">12.086638</internal_data>
+            <internal_data name="measure_HEELTOTOE">262.116577</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.711029</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">236.833176</internal_data>
+            <internal_data name="measure_JOINTGIRTH">229.929504</internal_data>
+            <internal_data name="measure_SHORTBALL">141.465744</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">262.975311</internal_data>
+            <internal_data name="measure_STICKWIDTH">87.914978</internal_data>
+            <internal_data name="measure_TOESPRING">12.086638</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650079</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 6.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">15.259331</internal_data>
+            <internal_data name="measure_HEELTOTOE">266.178284</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">67.381004</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">246.656296</internal_data>
+            <internal_data name="measure_JOINTGIRTH">232.485092</internal_data>
+            <internal_data name="measure_SHORTBALL">139.958588</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">266.963928</internal_data>
+            <internal_data name="measure_STICKWIDTH">89.213364</internal_data>
+            <internal_data name="measure_TOESPRING">15.259331</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650080</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 7.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">13.233577</internal_data>
+            <internal_data name="measure_HEELTOTOE">263.330292</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">134.173004</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">266.618469</internal_data>
+            <internal_data name="measure_JOINTGIRTH">245.533264</internal_data>
+            <internal_data name="measure_SHORTBALL">156.287201</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">265.038239</internal_data>
+            <internal_data name="measure_STICKWIDTH">96.614838</internal_data>
+            <internal_data name="measure_TOESPRING">13.233577</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650080</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 8.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.826382</internal_data>
+            <internal_data name="measure_HEELTOTOE">263.936523</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">143.209991</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">251.759735</internal_data>
+            <internal_data name="measure_JOINTGIRTH">236.369171</internal_data>
+            <internal_data name="measure_SHORTBALL">149.369095</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.031921</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.328148</internal_data>
+            <internal_data name="measure_TOESPRING">17.826382</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650081</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/standard/standard shoe 9.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">11.368735</internal_data>
+            <internal_data name="measure_HEELTOTOE">261.134155</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">128.978683</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">235.484161</internal_data>
+            <internal_data name="measure_JOINTGIRTH">212.175491</internal_data>
+            <internal_data name="measure_SHORTBALL">152.010513</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">264.550812</internal_data>
+            <internal_data name="measure_STICKWIDTH">85.248764</internal_data>
+            <internal_data name="measure_TOESPRING">11.368735</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650081</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/deep bend 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">13.577436</internal_data>
+            <internal_data name="measure_HEELTOTOE">267.658112</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">136.161240</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">283.235504</internal_data>
+            <internal_data name="measure_JOINTGIRTH">265.839661</internal_data>
+            <internal_data name="measure_SHORTBALL">160.184631</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.892731</internal_data>
+            <internal_data name="measure_STICKWIDTH">99.773270</internal_data>
+            <internal_data name="measure_TOESPRING">13.577436</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650081</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/deep bend 2.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">13.648214</internal_data>
+            <internal_data name="measure_HEELTOTOE">268.023895</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">74.906212</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">287.095947</internal_data>
+            <internal_data name="measure_JOINTGIRTH">271.026093</internal_data>
+            <internal_data name="measure_SHORTBALL">161.284027</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.620331</internal_data>
+            <internal_data name="measure_STICKWIDTH">100.610916</internal_data>
+            <internal_data name="measure_TOESPRING">13.648214</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650082</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/deep bend 3.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">16.998745</internal_data>
+            <internal_data name="measure_HEELTOTOE">264.085968</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">122.557930</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">271.399292</internal_data>
+            <internal_data name="measure_JOINTGIRTH">274.871460</internal_data>
+            <internal_data name="measure_SHORTBALL">149.625305</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.792389</internal_data>
+            <internal_data name="measure_STICKWIDTH">101.448387</internal_data>
+            <internal_data name="measure_TOESPRING">16.998745</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650082</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/deep pitch bend 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">23.677891</internal_data>
+            <internal_data name="measure_HEELTOTOE">265.977234</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.072327</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">260.159637</internal_data>
+            <internal_data name="measure_JOINTGIRTH">253.723709</internal_data>
+            <internal_data name="measure_SHORTBALL">149.109940</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">266.076233</internal_data>
+            <internal_data name="measure_STICKWIDTH">96.426315</internal_data>
+            <internal_data name="measure_TOESPRING">23.677891</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650082</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">23.289734</internal_data>
+            <internal_data name="measure_HEELTOTOE">266.499786</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">67.787979</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">249.269150</internal_data>
+            <internal_data name="measure_JOINTGIRTH">245.016373</internal_data>
+            <internal_data name="measure_SHORTBALL">144.722687</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">266.889343</internal_data>
+            <internal_data name="measure_STICKWIDTH">95.255264</internal_data>
+            <internal_data name="measure_TOESPRING">23.289734</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650083</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 10.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">22.140177</internal_data>
+            <internal_data name="measure_HEELTOTOE">262.580536</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">66.497261</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">260.279175</internal_data>
+            <internal_data name="measure_JOINTGIRTH">243.882416</internal_data>
+            <internal_data name="measure_SHORTBALL">146.506424</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">262.637054</internal_data>
+            <internal_data name="measure_STICKWIDTH">93.845932</internal_data>
+            <internal_data name="measure_TOESPRING">22.140177</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650083</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 11.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">21.264908</internal_data>
+            <internal_data name="measure_HEELTOTOE">268.334747</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">70.350349</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">251.798767</internal_data>
+            <internal_data name="measure_JOINTGIRTH">247.587418</internal_data>
+            <internal_data name="measure_SHORTBALL">155.342514</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.900482</internal_data>
+            <internal_data name="measure_STICKWIDTH">97.838234</internal_data>
+            <internal_data name="measure_TOESPRING">21.264908</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650083</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 12.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">23.640650</internal_data>
+            <internal_data name="measure_HEELTOTOE">267.667236</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">67.895897</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">262.798859</internal_data>
+            <internal_data name="measure_JOINTGIRTH">253.541107</internal_data>
+            <internal_data name="measure_SHORTBALL">146.548981</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">267.261322</internal_data>
+            <internal_data name="measure_STICKWIDTH">94.685860</internal_data>
+            <internal_data name="measure_TOESPRING">23.640650</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650084</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 2.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.712788</internal_data>
+            <internal_data name="measure_HEELTOTOE">260.336365</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">65.102432</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">230.358597</internal_data>
+            <internal_data name="measure_JOINTGIRTH">228.021683</internal_data>
+            <internal_data name="measure_SHORTBALL">140.683578</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">262.032349</internal_data>
+            <internal_data name="measure_STICKWIDTH">89.940697</internal_data>
+            <internal_data name="measure_TOESPRING">17.712788</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650084</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 3.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">23.830027</internal_data>
+            <internal_data name="measure_HEELTOTOE">269.041107</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">118.683952</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">249.930634</internal_data>
+            <internal_data name="measure_JOINTGIRTH">242.693649</internal_data>
+            <internal_data name="measure_SHORTBALL">139.729477</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">264.013092</internal_data>
+            <internal_data name="measure_STICKWIDTH">95.601837</internal_data>
+            <internal_data name="measure_TOESPRING">23.830027</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650084</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 4.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">17.773621</internal_data>
+            <internal_data name="measure_HEELTOTOE">268.747345</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">129.325302</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">244.129028</internal_data>
+            <internal_data name="measure_JOINTGIRTH">237.537125</internal_data>
+            <internal_data name="measure_SHORTBALL">145.988586</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.253082</internal_data>
+            <internal_data name="measure_STICKWIDTH">91.915337</internal_data>
+            <internal_data name="measure_TOESPRING">17.773621</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650085</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 5.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">21.509563</internal_data>
+            <internal_data name="measure_HEELTOTOE">269.047760</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">121.643448</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">249.544342</internal_data>
+            <internal_data name="measure_JOINTGIRTH">234.908752</internal_data>
+            <internal_data name="measure_SHORTBALL">143.229462</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">267.721130</internal_data>
+            <internal_data name="measure_STICKWIDTH">91.718323</internal_data>
+            <internal_data name="measure_TOESPRING">21.509563</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650085</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 6.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">24.108805</internal_data>
+            <internal_data name="measure_HEELTOTOE">268.503021</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">125.080032</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">261.623260</internal_data>
+            <internal_data name="measure_JOINTGIRTH">249.284378</internal_data>
+            <internal_data name="measure_SHORTBALL">146.974030</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">268.301392</internal_data>
+            <internal_data name="measure_STICKWIDTH">96.598251</internal_data>
+            <internal_data name="measure_TOESPRING">24.108805</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650085</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 7.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">18.109694</internal_data>
+            <internal_data name="measure_HEELTOTOE">270.940369</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">126.341774</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">252.140320</internal_data>
+            <internal_data name="measure_JOINTGIRTH">231.969559</internal_data>
+            <internal_data name="measure_SHORTBALL">149.958740</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">269.509552</internal_data>
+            <internal_data name="measure_STICKWIDTH">89.577370</internal_data>
+            <internal_data name="measure_TOESPRING">18.109694</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650086</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 8.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">21.931442</internal_data>
+            <internal_data name="measure_HEELTOTOE">273.602814</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">134.421158</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">251.718613</internal_data>
+            <internal_data name="measure_JOINTGIRTH">248.695282</internal_data>
+            <internal_data name="measure_SHORTBALL">155.968002</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">269.790192</internal_data>
+            <internal_data name="measure_STICKWIDTH">97.270828</internal_data>
+            <internal_data name="measure_TOESPRING">21.931442</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650086</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/pitch bend 9.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">19.230124</internal_data>
+            <internal_data name="measure_HEELTOTOE">271.736969</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">69.481483</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">273.556580</internal_data>
+            <internal_data name="measure_JOINTGIRTH">267.479828</internal_data>
+            <internal_data name="measure_SHORTBALL">152.974945</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">274.558136</internal_data>
+            <internal_data name="measure_STICKWIDTH">96.809555</internal_data>
+            <internal_data name="measure_TOESPRING">19.230124</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+    <file>
+        <internal_data name="lastCalculated">1275650086</internal_data>
+        <internal_data name="path">run/data/lasts/shoe/toe bend/wide pitch bend 1.las</internal_data>
+        <record>
+            <internal_data name="fit">-24000</internal_data>
+            <internal_data name="measure_BLOCKPITCH">19.154583</internal_data>
+            <internal_data name="measure_HEELTOTOE">261.291748</internal_data>
+            <internal_data name="measure_HEELWIDTHCLARKS">64.985497</internal_data>
+            <internal_data name="measure_INSTEPGIRTHCLARKS">232.040527</internal_data>
+            <internal_data name="measure_JOINTGIRTH">236.202606</internal_data>
+            <internal_data name="measure_SHORTBALL">142.022827</internal_data>
+            <internal_data name="measure_STICKLENGTHCLARKS">260.464386</internal_data>
+            <internal_data name="measure_STICKWIDTH">95.353729</internal_data>
+            <internal_data name="measure_TOESPRING">19.154583</internal_data>
+            <internal_data name="size">10800</internal_data>
+        </record>
+    </file>
+</library>

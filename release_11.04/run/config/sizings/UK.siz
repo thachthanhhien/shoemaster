@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sizings>
+  <system name="Adult Male">
+    <size name="5.5" length="242.5"></size>
+    <size name="6" length="247.5"></size>
+    <size name="6.5" length="252.5"></size>
+    <size name="7" length="257.5"></size>
+    <size name="7.5" length="262.5"></size>
+    <size name="8" length="267.5"></size>
+    <size name="8.5" length="272.5"></size>
+    <size name="9" length="277.5"></size>
+    <size name="9.5" length="282.5"></size>
+    <size name="10" length="287.5"></size>
+    <size name="10.5" length="292.5"></size>
+    <size name="11" length="297.5"></size>
+    <size name="11.5" length="302.5"></size>
+    <size name="12" length="307.5"></size>
+    <size name="13" length="315.0"></size>
+    <size name="14" length="325.0"></size>
+    <size name="15" length="335.0"></size>
+    <size length="345.0"></size>
+  </system>
+  <system name="Adult Female">
+    <size name="1.5" length="207.5"></size>
+    <size name="2" length="212.5"></size>
+    <size name="2.5" length="217.5"></size>
+    <size name="3" length="222.5"></size>
+    <size name="3.5" length="227.5"></size>
+    <size name="4" length="232.5"></size>
+    <size name="4.5" length="237.5"></size>
+    <size name="5" length="242.5"></size>
+    <size name="5.5" length="247.5"></size>
+    <size name="6" length="252.5"></size>
+    <size name="6.5" length="257.5"></size>
+    <size name="7" length="262.5"></size>
+    <size name="7.5" length="267.5"></size>
+    <size name="8" length="272.5"></size>
+    <size name="8.5" length="277.5"></size>
+    <size name="9" length="282.5"></size>
+    <size name="9.5" length="287.5"></size>
+    <size length="292.5"></size>
+  </system>
+  <system name="Child">
+    <size name="1" length="75.0"></size>
+    <size name="2" length="85.0"></size>
+    <size name="3" length="95.0"></size>
+    <size name="4" length="105.0"></size>
+    <size name="5" length="115.0"></size>
+    <size name="5.5" length="122.5"></size>
+    <size name="6" length="127.5"></size>
+    <size name="6.5" length="132.5"></size>
+    <size name="7" length="137.5"></size>
+    <size name="7.5" length="142.5"></size>
+    <size name="8" length="147.5"></size>
+    <size name="8.5" length="152.5"></size>
+    <size name="9" length="157.5"></size>
+    <size name="9.5" length="162.5"></size>
+    <size name="10" length="167.5"></size>
+    <size name="10.5" length="172.5"></size>
+    <size name="11" length="177.5"></size>
+    <size name="11.5" length="182.5"></size>
+    <size name="12" length="187.5"></size>
+    <size name="12.5" length="192.5"></size>
+    <size name="13" length="197.5"></size>
+    <size name="13.5" length="202.5"></size>
+    <size name="1" length="207.5"></size>
+    <size name="1.5" length="212.5"></size>
+    <size name="2" length="217.5"></size>
+    <size name="2.5" length="222.5"></size>
+    <size name="3" length="227.5"></size>
+    <size name="3.5" length="232.5"></size>
+    <size name="4" length="237.5"></size>
+    <size name="4.5" length="242.5"></size>
+    <size name="5" length="247.5"></size>
+    <size length="252.5"></size>
+  </system>
+</sizings>

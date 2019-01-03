@@ -1,0 +1,18 @@
+$(
+ *  TITLE               SHOEMASTER POWER
+ *  FUNCTION            specific things for shoemaster power
+ *
+ *  AUTHOR              Patrick Brooke 20 Dec   2000 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/shoemaster_all
+
+$( Expert Flattening System Startup Power $)
+$n //release/run/startups/macros/expert_flattening/setup.ini
+
+$( QSM Startup Power $)
+$n//release/run/startups/macros/advanced_macros/power.ini
+
+$.

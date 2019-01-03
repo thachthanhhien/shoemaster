@@ -1,0 +1,14 @@
+$(
+ *  TITLE               ZUND PAPER
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+enable text
+enable marker lines
+disable punch cut
+disable punch cross
+communications device 'Zund'             settings knife acceleration 4

@@ -1,0 +1,12 @@
+$(
+ *  TITLE               SHOEMASTER ACTIVEX
+ *  FUNCTION            specific things for shoemaster activex
+ *
+ *  AUTHOR              Ayman Hatem    31 Jan   2008 CSM3D  
+ *  MODIFICATIONS
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/shoemaster_all
+
+$.

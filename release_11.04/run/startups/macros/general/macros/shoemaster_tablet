@@ -1,0 +1,228 @@
+$(
+ *  TITLE               SHOEMASTER TABLET
+ *  FUNCTION            Set up tablet information for shoemaster
+ *                      
+ *  AUTHOR              Patrick Brooke  7 Nov   1996 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+tablet define newsumm 16 1000 '+%7f,+%7f,%2d' last
+tablet define oldsumm 16   10 '@%1x+%5f+%5f'  first
+tablet define tds     16 1000 '+%7f,+%7f,%2d' last
+tablet define 4       16  100 '%5f,%5f,%1x'   last
+tablet define 5       16  100 '%d%f%f%f'      first  threed
+tablet define 6       16  100 '%d%f%f%f'      first  threed
+tablet define 7 16 40 '+%7f,+%7f,%2d' last
+tablet define 8 4  100 '%5f,%5f,%1d' last
+tablet define 9       16  100 '%d%f%f%f'      first  threed
+tablet define 10 16 1000 '+%7f,+%7f,%2d' last
+tablet define 20 16 1 'MICROSCRIBE' last threed
+tablet define 21 16 1000 '+%7f,+%7f,%2d' last
+tablet define 22 16 0.0393700787 'MICROSCRIBE' last
+tablet define 23 16 0.0393700787 'MICROSCRIBE' last
+tablet using oldsumm
+tablet button  1  'XY'
+tablet button  4  '$$p button * '
+tablet button  5  'accept;disable tablet'
+tablet button  6  'quit;new line twod'
+tablet button  7  'quit;disable tablet'
+tablet button  8  '$$p button 0 '
+tablet button  9  '$$p button 8 '
+tablet button 10  'disable tablet'
+tablet button 11  'accept;display on line current;disable tablet'
+tablet button 12  '$$p button # '
+tablet button 13  '$$p button 9 '
+tablet button 14  'page;display on line all'
+tablet button 15  'accept;display on line current;new line twod'
+
+tablet using newsumm
+tablet button  1  'XY'
+tablet button  2  ''
+tablet button  3  'reference point ''Bottom Toe'' position $$( enter the toe point $$) $$'
+tablet button  4  'reference point ''Bottom Heel'' position $$( enter the heel point $$) $$'
+tablet button  5  'accept;disable tablet'
+tablet button  6  'quit;new line twod'
+tablet button  7  'quit;disable tablet'
+tablet button  8  'reference point ''Bottom Outer'' position $$( enter the outer point $$) $$'
+tablet button  9  'new line twod'
+tablet button 10  'disable tablet'
+tablet button 11  'accept;display on line current;disable tablet'
+tablet button 12  'reference point ''Bottom Inner'' position $$( enter the inner point $$) $$'
+tablet button 14  'page;display on line all'
+tablet button 15  'accept;display on line current;new line twod'
+tablet button 16  'accept bottom;page;enable hidden'
+
+
+tablet using 23
+tablet button  1  ''
+tablet button  2  ''
+tablet button  3  'reference point ''Bottom Toe'' position $$( enter the toe point $$) $$'
+tablet button  4  'reference point ''Bottom Heel'' position $$( enter the heel point $$) $$'
+tablet button  5  'accept;disable tablet'
+tablet button  6  'quit;new line twod'
+tablet button  7  'quit;disable tablet'
+tablet button  8  'reference point ''Bottom Outer'' position $$( enter the outer point $$) $$'
+tablet button  9  'new line twod'
+tablet button 10  'disable tablet'
+tablet button 11  'accept;display on line current;disable tablet'
+tablet button 12  'reference point ''Bottom Inner'' position $$( enter the inner point $$) $$'
+tablet button 14  'page;display on line all'
+tablet button 15  'accept;display on line current;new line twod'
+tablet button 16  'accept bottom;page;enable hidden'
+
+
+tablet using 21
+tablet button  1  'XY'
+tablet button  2  'accept;display on line current;new line twod;XY repeat'
+tablet button  3  'accept;display on line current;pattern piece auto collect complete circuit closed; new line twod'
+tablet button  4  'accept;display on line current;pattern piece auto collect complete circuit open; new line twod'
+tablet button  5  'quit; pattern piece auto collect complete piece;new line twod'
+tablet button  6  'quit;pattern piece auto collect restart circuit;page; display on line all; new line twod'
+tablet button  7  'quit;pattern piece auto collect restart piece;page;display on line all; new line twod'
+tablet button  8  ''
+tablet button  9  'accept;display on line current; pattern piece auto collect detach circuit;new line twod'
+tablet button 10  'quit;pattern piece auto collect;page;display on line all;disable tablet'
+tablet button 11  ''
+tablet button 12  ''
+tablet button 14  'quit;page;display on line all;new line twod'
+tablet button 15  ''
+tablet button 16  ''
+
+tablet using 22
+tablet button  1  ''
+tablet button  2  'accept;display on line current;pattern piece auto collect complete circuit closed; new line twod'
+tablet button  3  'accept;display on line current;pattern piece auto collect complete circuit open; new line twod'
+tablet button  4  'quit; pattern piece auto collect complete piece;new line twod'
+tablet button  5  'accept;display on line current;new line twod;XY repeat'
+tablet button  6  'quit;pattern piece auto collect restart circuit;page; display on line all; new line twod'
+tablet button  7  'quit;pattern piece auto collect restart piece;page;display on line all; new line twod'
+tablet button  8  ''
+tablet button  9  'accept;display on line current; pattern piece auto collect detach circuit;new line twod'
+tablet button 10  'quit;pattern piece auto collect;page;display on line all;disable tablet'
+tablet button 11  ''
+tablet button 12  ''
+tablet button 14  'quit;page;display on line all;new line twod'
+tablet button 15  ''
+tablet button 16  ''
+
+tablet using tds
+tablet button  1  'XY'
+tablet button  7  'quit;disable tablet'
+tablet button 11  'accept;display on line current;disable tablet'
+tablet button 15  'accept;display on line current;new line twod'
+tablet button  6  'quit;new line twod'
+tablet button 10  'disable tablet'
+tablet button 14  'page;display on line all'
+
+tablet using 4
+tablet button  1  'XY'
+tablet button  7  'quit;disable tablet'
+tablet button 11  'accept;display on line current;disable tablet'
+tablet button 15  'accept;display on line current;new line twod'
+tablet button  6  'quit;new line twod'
+tablet button 10  'disable tablet'
+tablet button 14  'page;display on line all'
+
+tablet using 5
+tablet button   1  'reference point id Shoemaster ''InsideLastGradingPoint'' position $$( now digitize the inside last girth point $$) $$'
+tablet button   2  'reference point id Shoemaster ''CentreLastGradingPoint'' position $$( now digitize the centre last girth point $$) $$'
+tablet button   3  'reference point id Shoemaster ''OutsideLastGradingPoint'' position $$( now digitize the outside last girth point $$) $$'
+tablet button   4  'reference point id Clarks     ''InsideBackHeight'' position $$( now digitize the inside backheight $$) $$'
+tablet button   5  'reference point id Clarks     ''OutsideBackHeight'' position $$( now digitize the outside backheight $$) $$'
+tablet button   6  'reference point id Shoemaster ''VampPoint'' position $$( now digitize the vamp point $$) $$'
+tablet button   7  'reference point id TNO        ''MedialAnkleheightPoint'' position $$( now digitize the inside underankle height $$) $$'
+tablet button   8  'reference point id TNO        ''LateralAnkleheightPoint'' position $$( now digitize the outside underankle height $$) $$'
+tablet button   9  'reference point ''Vamp Point A'' position $$( now digitize vamp point "a" $$) $$'
+tablet button  10  'reference point ''Vamp Point B'' position $$( now digitize vamp point "b" $$) $$'
+tablet button  11  'reference point ''Vamp Point C'' position $$( now digitize vamp point "c" $$) $$'
+tablet button  12  '$$( button 12 $$)'
+tablet button  13  'quit;disable tablet'
+tablet button  14  'disable tablet'
+tablet button  15  '$$( button 15 $$)'
+tablet button  16  'xy'
+                                 $(extra keys defined by k shoes$) 
+tablet button  12  'reference point ''Inside Padded Back Height'' position $$( now digitize inside padded backheight $$) $$'
+tablet button  15  'reference point ''Outside Padded Back Height'' position $$( now digitize outside padded backheight $$) $$'
+
+$( ignore key for digitizing $)
+tablet button  15  'xyignore'
+ 
+tablet using 6
+tablet button   1  'surface current last;new line xyz;$$( now digitize the line $$)'
+tablet button   2  'accept;display on line current'
+tablet button   3  'page;display on line all'
+tablet button   4  'accept;display on line current; new line xyz;$$( now digitize the line $$)'
+tablet button   5  'set line rubout;display on line current;delete line'
+tablet button   6  '$$( button 6 $$)'
+tablet button   7  '$$( button 7 $$)'
+tablet button   8  '$$( button 8 $$)'
+tablet button   9  '$$( button 9 $$)'
+tablet button  10  '$$( button 10 $$)'
+tablet button  11  '$$( button 11 $$)'
+tablet button  12  '$$( button 12 $$)'
+tablet button  13  'quit;disable tablet'
+tablet button  14  'disable tablet'
+tablet button  15  '$$( button 15 $$)'
+tablet button  16  'xy'
+
+tablet using 7
+tablet button  1  'quit;disable tablet'
+tablet button  2  'accept;display on line current;disable tablet'
+tablet button  3  'accept;display on line current;new line twod'
+tablet button  4  'XY'
+tablet button  5  'quit;new line twod'
+tablet button  6  'disable tablet'
+tablet button  7  'page;display on line all'
+
+tablet using 8
+tablet button  1 'quit;disable tablet'
+tablet button  2 'XY'
+tablet button  3 'accept;display on line current;disable tablet'
+tablet button  4 'disable tablet'
+
+tablet using 9
+tablet button   1  'reference point ''outside seat point''     position $$( now digitize outside seat point, upper $$) $$'
+tablet button   2  'reference point ''outside joint point''    position $$( now digitize outside joint point, upper $$) $$'
+tablet button   3  'reference point ''outside forepart point'' position $$( now digitize outside forepart point, upper $$) $$'
+tablet button   4  'reference point ''inside forepart point''  position $$( now digitize inside forepart point, upper $$) $$'
+tablet button   5  'reference point ''inside joint point''     position $$( now digitize inside joint point, upper $$) $$'
+tablet button   6  'reference point ''inside seat point''      position $$( now digitize inside seat point, upper $$) $$'
+tablet button   7  'reference point ''outside seat point''     position $$( now digitize outside seat point, sole $$) $$'
+tablet button   8  'reference point ''outside joint point''    position $$( now digitize outside joint point, sole $$) $$'
+tablet button   9  'reference point ''outside forepart point'' position $$( now digitize outside forepart point, sole $$) $$'
+tablet button  10  'reference point ''inside forepart point''  position $$( now digitize inside forepart point, sole $$) $$'
+tablet button  11  'reference point ''inside joint point''     position $$( now digitize inside joint point, sole $$) $$'
+tablet button  12  'reference point ''inside seat point''      position $$( now digitize inside seat point, sole $$) $$'
+tablet button  13  'quit;disable tablet'
+tablet button  14  'disable tablet'
+tablet button  15  '$$( button 15 $$)'
+tablet button  16  'xy'
+tablet using 10
+tablet button  1  'XY'
+tablet button  7  'quit;disable tablet'
+tablet button 11  'accept;display on line upper;disable tablet'
+tablet button 15  'accept;display on line upper;new line upper'
+tablet button  6  'quit;new line upper'
+tablet button 10  'disable tablet'
+tablet button 14  'page;display on line upper'
+
+tablet using 20
+tablet button 1 'echo ''now digitize the inside last girth point'';reference point id Shoemaster ''InsideLastGradingPoint'' position $$'
+tablet button 2 'echo ''now digitize the centre last girth point'';reference point id Shoemaster ''CentreLastGradingPoint'' position $$'
+tablet button 3 'echo ''now digitize the outside last girth point'';reference point id Shoemaster ''OutsideLastGradingPoint'' position $$'
+tablet button 4 'echo ''now digitize the inside backheight'';reference point id Shoemaster ''BackHeight'' position $$'
+tablet button 5 'echo ''now digitize vamp point "a"'';reference point ''Vamp Point A'' position $$'
+tablet button 6 'echo ''now digitize the inside underankle height'';reference point id TNO ''MedialAnkleheightPoint'' position $$'
+tablet button 7 'echo ''now digitize the outside underankle height'';reference point id TNO ''LateralAnkleheightPoint'' position $$'
+tablet button 8 'delete;page;redraw'
+tablet button 9 'bearing -45 elevation 20 centre;redraw'
+tablet button 10 'bearing 45 elevation 20 centre;redraw'
+tablet button 11 'bearing 0 elevation 90 centre;redraw'
+tablet button 12 'echo ''now digitize the line'';surface current last;new line xyz'
+tablet button 13 'accept;display on line current;echo ''now digitize the next line'';new line xyz'
+tablet button 14 'accept;display on line current'
+tablet button 15 'quit;disable tablet'
+tablet button 16 '$$( button 16 $$)'
+
+$.   

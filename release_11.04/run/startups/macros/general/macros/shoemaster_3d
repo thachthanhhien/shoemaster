@@ -1,0 +1,44 @@
+$(
+ *  TITLE               SHOEMASTER 3D startup
+ *  FUNCTION            This startup file contains all the settings that are common to all 3D
+ *                      shoemaster programs and are generally the same for each
+ *                      group of users. Note it is possible that some parameters are
+ *                      reset in the group specific files.
+ *                      
+ *  AUTHOR              Nigel Blower   28 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/measures/startup_3d
+
+Flatten method default fast
+Flatten set default smooth on top line
+Flatten set default halves alignment new
+Flatten set default centre line proportion 0
+Flatten set default strips 60
+Flatten set default control 1
+Flatten set default extra line on
+Flatten set default heel grade blend 4
+Flatten set symmetry from middle
+Flatten vd top
+
+bearing -90 elevation 0
+scale three to 1 home
+scale three save                                                      
+
+$m //release/run/startups/macros/general/macros/surface_colours
+
+last cross section spacing 1.5875
+last generate configure output spacing 1.5875
+last generate configure output radii 72
+last generate settings improve mesh on
+
+render texture colours 8
+
+last surface tolerance 5
+
+$( Always have lastbottom surface on $)
+surface selected /lastbottom
+
+$.

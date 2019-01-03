@@ -1,0 +1,15 @@
+$(
+ *  TITLE               MOCCASIN RESET
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+layer 'Stitch A' visible;graphics update
+layer 'Stitch B' visible;graphics update
+layer 'Stitch C' visible;graphics update
+page; draw all lines twod current
+$.
+

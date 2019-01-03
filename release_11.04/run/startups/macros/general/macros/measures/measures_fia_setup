@@ -1,0 +1,31 @@
+$(
+ *  TITLE               MEASURES FIA SETUP
+ *  FUNCTION            Set up the FIA 3d last measures
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure define clear
+
+last measure define Stick       'Stick Length'                 key StickLengthClarks       profile 'stick_length' distance 'Backcurve Swell Point (Clarks)' groundrest 'Toe Swell Point' groundrest
+last measure define Joint       'Joint Girth'                  key JointGirth              profile 'joint_girth' plane thickness perimeter 'Inside Last Grading Point' 'Outside Last Grading Point' 'Centre Last Grading Point'
+last measure define BlockPitch  'Block Pitch'                  key BlockPitch              distance 'Heel Point' 'Heel Point' tno
+last measure define BigToeDepth 'Big Toe Depth'                key BigToeDepth             distance 'Big Toe Point (Clarks)' 'Big Toe Depth Point (Clarks)'
+
+last measure define             'Overall Length'               distance 'Heel Plane Contact Point' inner ground 'Toe Plane Contact Point' inner ground
+last measure define             'Horizontal Ball Width'        distance 'Outside Ball Point' 'Outside Ball Point' inner
+last measure define             'Heel to Inner Ball Length'    distance 'Heel Plane Contact Point' inner ground 'Ball Point (Clarks)' inner ground
+last measure define             'Ball Girth'                   profile 'ball_girth_fia' plane perimeter 'Ball Point (Clarks)' 'Outside Ball Point' ground
+last measure define HeelWidth   'Heel Width'                   plane outer 'Inside Heel Width Point (Clarks)' ground inner
+last measure define             'Instep Girth'                 profile 'instep_girth_fia' plane perimeter 'Instep Point (FIA)' ground inner
+last measure define             'Instep Height'                distance 'Instep Point (FIA)' 'Instep Point (FIA)' groundrest
+last measure define             'Instep to Heel Girth'         profile 'instep_to_heel_girth' plane perimeter 'Instep Point (FIA)' 'Heel Point' inner
+last measure define             'Heel to Outer Ball'           distance 'Heel Plane Contact Point' outer normal inner ground 'Outside Ball Point' ground
+last measure define             'Instep Opening Girth'         profile 'instep_opening_girth' plane perimeter 'Instep Point (FIA)' 'Heel Plane Contact Point' inner
+last measure define             'Inner mid-toe distance'       distance 'Inside Mid Toe Point' 'Inside Mid Toe Point' inner
+last measure define             'Outer mid-toe distance'       distance 'Outside Mid Toe Point' 'Outside Mid Toe Point' inner
+last measure define             'Waist Girth'                  profile 'waist_girth_fia' plane perimeter 'Inside Waist Girth Point' 'Outside Waist Girth Point' 'Centre Waist Girth Point'
+
+$.

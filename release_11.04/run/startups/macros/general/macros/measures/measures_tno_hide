@@ -1,0 +1,26 @@
+$(
+ *  TITLE               MEASURES TNO HIDE
+ *  FUNCTION            Remove the TNO 3d last measures from the menus
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure 'Last Length (TNO)'                     inactive
+last measure 'Stick Length (TNO)'                    inactive
+last measure 'Heel to Central Ball Length (TNO)'     inactive
+last measure 'Centre Ball to Toe Length (TNO)'       inactive
+last measure 'Ball Width (TNO)'                      inactive
+last measure 'Heel Width (TNO)'                      inactive
+last measure 'Toe Girth (TNO)'                       inactive
+last measure 'Ball Girth (TNO)'                      inactive
+last measure 'Waist Girth (TNO)'                     inactive
+last measure 'Instep Girth (TNO)'                    inactive
+last measure 'Heel Girth (Short) (TNO)'              inactive
+last measure 'Heel Girth (Long) (TNO)'               inactive
+last measure 'Ball-Heel-Ball Girth (TNO)'            inactive
+last measure 'Heel Raise (TNO)'                      inactive
+
+
+$.

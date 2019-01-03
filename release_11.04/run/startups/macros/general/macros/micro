@@ -1,0 +1,22 @@
+$(
+ *  TITLE               MICRO
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$( This macro creates a file of points $)
+$( suitable for conversion to a .DGT   $)
+$( file using the 'transform' script.  $)
+$( For more info type 'info transform' $)
+
+$( NB. A known fault with this macro   $)
+$(     is that it causes an error if   $)
+$(     there are no style lines!       $)
+
+file text /micro_file
+$( for line all [q line points]       THIS DOESN'T GENERATE POINTS FOR THE FEATHER LINE $)
+for line -11 to % [q line points]
+file text

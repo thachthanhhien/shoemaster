@@ -1,0 +1,20 @@
+$(
+ *  TITLE               MOCCASIN GROUP SET OUTER3D
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+line 9003; set line inner
+line 9004; set line inner
+line 9005; set line inner
+line 9006; set line inner
+layer 'Stitch A' invisible;graphics update
+layer 'Stitch B' invisible;graphics update
+layer 'Stitch C' invisible;graphics update
+grouping new
+for line all [if line outer [grouping add]]
+$.
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<materials_mode_settings>
+    <image_settings size_ten_pct="3"/>
+    <folders>
+        <folder>run\data\components</folder>
+    </folders>
+</materials_mode_settings>

@@ -1,0 +1,34 @@
+$(
+ *  TITLE               MEASURES CLARKS HIDE
+ *  FUNCTION            Remove the Clarks 3d last measures from the menus
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure 'Effective Length (Clarks)'             inactive
+last measure 'Stick Length (Clarks)'                 inactive
+last measure 'Ring Width (Clarks)'                   inactive
+last measure 'Tread Width (Clarks)'                  inactive
+last measure 'Heel Width (Clarks)'                   inactive
+last measure 'Joint Girth (Clarks)'                  inactive
+last measure 'Instep Girth (Clarks)'                 inactive
+last measure 'Toe Spring'                            inactive
+last measure 'Block Pitch (Clarks)'                  inactive
+last measure 'Toe Depth At Foot Length (Clarks)'     inactive
+last measure 'Toe Depth At Growth Room (Clarks)'     inactive
+last measure 'Toe Depth At 90% Foot Length (Clarks)' inactive
+last measure 'Big Toe (Clarks)'                      inactive
+last measure 'Big Toe Depth (Clarks)'                inactive
+last measure 'Little Toe (Clarks)'                   inactive
+last measure 'Little Toe Depth (Clarks)'             inactive
+last measure 'Heel To Centre Joint (Clarks)'         inactive
+last measure 'Heel To Outside Joint (Clarks)'        inactive
+last measure 'Heel To Inside Joint (Clarks)'         inactive
+last measure 'Heel To Ball (Clarks)'                 inactive
+last measure 'Short Heel (Clarks)'                   inactive
+last measure 'Ring Width % Of Joint Girth (Clarks)'  inactive
+last measure 'Tread Width % Of Joint Girth (Clarks)' inactive
+
+$.

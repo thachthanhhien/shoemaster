@@ -1,0 +1,110 @@
+colour   0 rgb   0   0   0
+colour   1 rgb   0   0   0
+colour   2 rgb   0   0   0
+colour   3 rgb   0   0   0
+colour   4 rgb   0   0   0
+colour   5 rgb   0   0   0
+colour   6 rgb   0   0   0
+colour   7 rgb   0   0   0
+colour   8 rgb   0   0   0
+colour   9 rgb   0   0   0
+colour  10 rgb   0   0   0
+colour  11 rgb   0   0   0
+colour  12 rgb   0   0   0
+colour  13 rgb   0   0   0
+colour  14 rgb   0   0   0
+colour  15 rgb   0   0   0
+colour  16 rgb   0   0   0
+colour  17 rgb   0   0   0
+colour  18 rgb   0   0   0
+colour  19 rgb   0   0   0
+colour  20 rgb   0   0   0
+colour  21 rgb   0   0   0
+colour  22 rgb   0   0   0
+colour  23 rgb   0   0   0
+colour  24 rgb 221   0   0   
+colour  25 rgb   0   0 221 
+colour  26 rgb 221   0   0  
+colour  27 rgb  49  48  40  
+colour  28 rgb 244  68 254 
+colour  29 rgb 165  65 157 
+colour  30 rgb 136  56   0 
+colour  31 rgb   0 128 255
+colour  32 rgb 219  47  76
+colour  33 rgb 100  68  20
+colour  34 rgb  63  52 195
+colour  35 rgb  52  99  62 
+colour  36 rgb 222  57  33 
+colour  37 rgb 221   0   0 
+colour  38 rgb   0   0   0 
+colour  39 rgb   0 128 128 
+colour  40 rgb   0 255 255 
+colour  41 rgb 255 255 255 
+colour  42 rgb 237 158  86 
+colour  43 rgb 255 255 119 
+colour  44 rgb   0 221   0 
+colour  45 rgb 104 104 255 
+colour  46 rgb   0 147   0 
+colour  47 rgb   0   0 221 
+colour  48 rgb 221   0   0 
+colour  49 rgb 136  56   0 
+colour  50 rgb   0 180 180
+colour  52 rgb   0 255   0
+colour  53 rgb   0 164   0
+colour  54 rgb 136  56   0
+colour  55 rgb   0 196 196
+colour 251 rgb 255   0   0
+colour 252 rgb   0 255   0
+colour 253 rgb   0   0 255
+colour 254 rgb 121 120 101
+colour 255 rgb 255 255 255
+colour 256 rgb 255   0   0
+
+$( Coloured bundles $)
+colour 101 rgb 255   0   0 $( Red $)
+colour 102 rgb   0 255   0 $( Green $)
+colour 103 rgb   0   0 255 $( Blue $)
+colour 104 rgb 128   0   0 $( Brown $)
+colour 105 rgb 255 255   0 $( Yellow $)
+colour 106 rgb 128   0 128 $( Purple $)
+colour 107 rgb   0 255 255 $( Light Blue $)
+colour 108 rgb 255   0 255 $( Light Purple $)
+colour 109 rgb 255 128   0 $( Orange $)
+colour 110 rgb   0 128   0 $( Dark Green $)
+
+$( Surfaces. The indices used here are duplicated in rd/SurfaceColourIndices.h and therefore must match $)
+colour surface  1 rgb 215 145  40 $( A Last $)
+colour surface  2 rgb 220 190  40 $( B Last $)
+colour surface  3 rgb  65 200  70 $( A Triangulated Last $)
+colour surface  4 rgb 130 220 130 $( B Triangulated Last $)
+colour surface  5 rgb 225 110 110 $( A Footscan $)
+colour surface  6 rgb 235 160 160 $( B Footscan $)
+colour surface  7 rgb  55 110 200 $( Sections $)
+colour surface  8 rgb 100  60   0 $( APPARENTLY UNUSED $)
+colour surface  9 rgb 225  90   0 $( STL Imported Last $)
+colour surface 10 rgb 200 150  90 $( APPARENTLY UNUSED $)
+colour surface 11 rgb  85  70 235 $( APPARENTLY UNUSED $)
+
+colour piece fill    1 rgb  164 66  156
+colour piece fill    2 rgb  249 134 49
+colour piece fill    3 rgb  139 158 101
+colour piece fill    4 rgb  111 198 85
+colour piece fill    5 rgb  232 182 179
+colour piece fill    6 rgb  53  67  196
+colour piece fill    7 rgb  176 132 172
+colour piece fill    8 rgb  208 211 97
+colour piece fill    9 rgb  245 167 169
+colour piece fill   10 rgb  205 43  24
+
+colour line fill    1 rgb  164 66  156
+colour line fill    2 rgb  249 134 49
+colour line fill    3 rgb  139 158 101
+colour line fill    4 rgb  111 198 85
+colour line fill    5 rgb  232 182 179
+colour line fill    6 rgb  53  67  196
+colour line fill    7 rgb  176 132 172
+colour line fill    8 rgb  208 211 97
+colour line fill    9 rgb  245 167 169
+colour line fill   10 rgb  205 43  24
+
+$.

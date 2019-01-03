@@ -1,0 +1,312 @@
+$(
+ *  TITLE               LINETYPES MACRO
+ *  FUNCTION            This startup file contains the standard linetype bundle and layer setup
+ *                      Any changes made MUST be reflected in lyxpa_SetLayerNames()
+ *                      
+ *  AUTHOR              Patrick Brooke  6 Nov   1996 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$( Set up the Layers $)
+
+Layer 0 Name 'system' Colour None Visible Menu None
+
+Layer New 30001 Name 'Edge'               Colour None Visible Menu Both Standard
+Layer New 30002 Name 'Stitch A'           Colour None Visible Menu Both Standard
+Layer New 30003 Name 'Stitch B'           Colour None Visible Menu Both Standard
+Layer New 30004 Name 'Stitch C'           Colour None Visible Menu Both Standard
+Layer New 30005 Name 'Punch'              Colour None Visible Menu Both Standard
+Layer New 30006 Name 'Marker A'           Colour None Visible Menu Both Standard
+Layer New 30007 Name 'Marker B'           Colour None Visible Menu Both Standard
+Layer New 30008 Name 'Marker C'           Colour None Visible Menu Both Standard
+Layer New 30009 Name 'Hole A'             Colour None Visible Menu Both Standard
+Layer New 30010 Name 'Hole B'             Colour None Visible Menu Both Standard
+Layer New 30011 Name 'Hole C'             Colour None Visible Menu Both Standard
+Layer New 30012 Name 'Outline'            Colour None Visible Menu Both Standard
+Layer New 30013 Name 'Stabs'              Colour None Visible Menu Both Standard
+Layer New 30014 Name 'Seam'               Colour None Visible Menu Both Standard
+Layer New 30015 Name 'Slot'               Colour None Visible Menu Both Standard
+Layer New 30016 Name 'Cut'                Colour None Visible Menu Both Standard
+Layer New 30017 Name 'Quality A'          Colour None Visible Menu Both Advanced
+Layer New 30018 Name 'Quality B'          Colour None Visible Menu Both Advanced
+Layer New 30019 Name 'Quality C'          Colour None Visible Menu Both Advanced
+Layer New 30020 Name 'Quality D'          Colour None Visible Menu Both Advanced
+Layer New 30021 Name 'Stretch'            Colour None Visible Menu Both Advanced
+Layer New 30022 Name 'Size Marker'        Colour None Visible Menu Both Advanced
+Layer New 30023 Name 'Invisible'          Colour None Visible Menu None
+Layer New 30031 Name 'Stitch D'           Colour None Visible Menu Both Advanced
+Layer New 30032 Name 'Stitch E'           Colour None Visible Menu Both Advanced
+Layer New 30033 Name 'Stitch F'           Colour None Visible Menu Both Advanced
+Layer New 30034 Name 'Stitch G'           Colour None Visible Menu Both Advanced
+Layer New 30035 Name 'Stitch H'           Colour None Visible Menu Both Advanced
+Layer New 30036 Name 'Imported'           Colour None Visible Menu Both Advanced
+Layer New 30037 Name 'IGES A'             Colour None Visible Menu Both Advanced
+Layer New 30038 Name 'IGES B'             Colour None Visible Menu Both Advanced
+Layer New 30039 Name 'IGES C'             Colour None Visible Menu Both Advanced
+Layer New 30040 Name 'IGES D'             Colour None Visible Menu Both Advanced
+Layer New 30041 Name 'IGES E'             Colour None Visible Menu Both Advanced
+Layer New 30042 Name 'IGES F'             Colour None Visible Menu Both Advanced
+Layer New 30043 Name 'IGES G'             Colour None Visible Menu Both Advanced
+Layer New 30044 Name 'IGES H'             Colour None Visible Menu Both Advanced
+
+Layer New 30101 Name 'Centre'             Colour None Visible Menu Both Advanced
+Layer New 30102 Name 'Text'               Colour None Visible Menu Both Standard
+Layer New 30103 Name 'Piece Text'         Colour None Visible Menu Both Standard
+Layer New 30104 Name 'Cross'              Colour None InVisible Menu Both Standard
+Layer New 30105 Name 'Grading Centre'     Colour None Visible Menu Both Advanced
+Layer New 30107 Name 'Linings'            Colour None Invisible Menu Both Standard
+Layer New 30108 Name 'Construction'       Colour None Invisible Menu Both Standard
+Layer New 30109 Name 'GLine'              Colour None Invisible Menu Both Standard
+Layer New 30110 Name 'Gross'              Colour None Visible Menu Both Advanced
+Layer New 30111 Name 'Fourviews'          Colour None Visible Menu None
+Layer New 30112 Name 'Annotation'         Colour None Visible Menu None
+
+Layer New 30201 Name 'Digit Point'        Colour None Visible Menu Threed Advanced
+Layer New 30202 Name 'Fake'               Colour None Visible Menu Threed Advanced
+Layer New 30203 Name 'Halves'             Colour None Visible Menu Threed Advanced
+Layer New 30204 Name 'Mating Arc'         Colour None Visible Menu Both Advanced
+Layer New 30205 Name 'Miscellaneous'      Colour None Visible Menu Both Advanced
+Layer New 30206 Name 'Profile'            Colour None Visible Menu Threed Advanced
+Layer New 30207 Name 'Section Guideline'  Colour None Visible Menu Threed Advanced
+Layer New 30208 Name 'Three D Section'    Colour None Visible Menu Threed Advanced
+Layer New 30209 Name 'Two D Section'      Colour None Visible Menu Threed Advanced
+Layer New 30210 Name 'Wire Frame'         Colour None Visible Menu Threed Advanced
+Layer New 30211 Name 'Wire Frame Sole'    Colour None Visible Menu Threed Advanced
+Layer New 30212 Name 'Compulast Normals'  Colour None Visible Menu None
+Layer New 30213 Name 'Compulast Points'   Colour None Visible Menu None
+Layer New 30214 Name 'Axes'               Colour None InVisible Menu Threed Standard
+Layer New 30215 Name 'Footscan'           Colour None Visible Menu None
+Layer New 30216 Name 'Footscan Grid'      Colour None Visible Menu Threed Advanced
+Layer New 30217 Name 'Footscan Section'   Colour None Visible Menu Threed Advanced
+Layer New 30218 Name 'Triangles Selected' Colour None Visible Menu Threed Advanced
+Layer New 30219 Name 'Triangles Blend'    Colour None Visible Menu Threed Advanced
+Layer New 30220 Name 'Triangles Profile'  Colour None Visible Menu Threed Advanced
+Layer New 30221 Name 'Triangles Polygon'  Colour None Visible Menu Threed Advanced
+Layer New 30223 Name 'Triangles Refpoint' Colour None Visible Menu Threed Advanced
+Layer New 30224 Name 'Last Section'       Colour None Visible Menu Threed Advanced
+
+Layer New 30301 Name 'Distinguish Inner'  Colour 47 Visible Menu Both Advanced
+Layer New 30302 Name 'Distinguish Outer'  Colour 48 Visible Menu Both Advanced
+Layer New 30303 Name 'Left'               Colour 31 Visible Menu Both Advanced
+Layer New 30304 Name 'Local Area Inner'   Colour 45 Visible Menu Both Advanced
+Layer New 30305 Name 'Local Area Outer'   Colour 46 Visible Menu Both Advanced
+Layer New 30306 Name 'Group'              Colour 31 Visible Menu Both Advanced
+Layer New 30307 Name 'Vanished'           Colour None Invisible Menu Both Advanced
+Layer New 30308 Name 'Selected'              Colour 256 Visible Menu Both Advanced
+
+Layer Select 0
+
+$( Set up the bundles $)
+
+linestyle Default           23   0     0     0 menu both advanced
+linestyle Punch             27   0     0     0 menu both standard
+linestyle Stitch A          24   3.000   0.500   0.000 menu both standard
+linestyle Stitch A threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch B          25   4.000   1.000   0.000 menu both standard
+linestyle Stitch B threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch C          26   5.000   1.500   0.000 menu both standard
+linestyle Stitch C threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch D          26   6.000   1.500   0.000 menu both standard
+linestyle Stitch D threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch E          26   7.000   1.500   0.000 menu both standard
+linestyle Stitch E threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch F          26   8.000   1.500   0.000 menu both standard
+linestyle Stitch F threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch G          26   9.000   1.500   0.000 menu both standard
+linestyle Stitch G threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Stitch H          26  10.000   1.500   0.000 menu both standard
+linestyle Stitch H threed colour surface 1 width     0.500 height    0.500 round  100.000   50.000 rotation    5.000 
+linestyle Marker A          29   0     0   1.5 menu both standard
+linestyle Marker B          35   0     0     2 menu both standard
+linestyle Marker C          36   0     0     3 menu both standard
+linestyle Outline           34   0     0     0 menu both standard
+linestyle Label             23 2.0   1.0     0 menu both advanced
+linestyle Construction      30 0.8   0.8     0 menu both advanced
+linestyle Mating            23   0     0     0 menu both advanced
+linestyle Nodes             23   0     0     0 menu both advanced
+linestyle Arrows            23   0     0     0 menu both advanced
+linestyle Restrict          23   0     0     0 menu both advanced
+linestyle Sketch            22   0     0     0 menu both standard
+linestyle Slot              31   0     0     0 menu both standard
+linestyle Cut               53   0     0     0 menu both standard
+linestyle GCentre           23   0     0     0 menu both advanced
+linestyle Centre            23   0     0     0 menu both advanced
+linestyle Edge              23   0     0     0 menu both standard
+linestyle Linings           32   0     0     0 menu both standard
+linestyle Seam              39   0     0     0 menu both standard
+linestyle Hole              33   0     0     0 menu both standard
+linestyle Highlight         37   0     0     0 menu both standard
+linestyle Piece Collection  37   0     0   0.5 menu both standard
+linestyle Duplicate         23   1     0.5   0 menu both standard
+linestyle Cross             23   0     0     0 menu both advanced
+linestyle Tied              50   0     0     0 menu both advanced
+linestyle TiedHighlight     55   0     0     0 menu both advanced
+linestyle Block A           50   0     0     0 menu threed advanced
+linestyle Block B           49   0     0     0 menu threed advanced
+linestyle Block C           48   0     0     0 menu threed advanced
+linestyle Block D           47   0     0     0 menu threed advanced
+linestyle Block E           46   0     0     0 menu threed advanced
+linestyle Block F           45   0     0     0 menu threed advanced
+linestyle Block G           44   0     0     0 menu threed advanced
+linestyle Block H           43   0     0     0 menu threed advanced
+linestyle Block I           42   0     0     0 menu threed advanced
+linestyle Block J           41   0     0     0 menu threed advanced
+linestyle Block K           50   0     0     0 menu threed advanced
+linestyle Block L           49   0     0     0 menu threed advanced
+linestyle Block M           48   0     0     0 menu threed advanced
+linestyle Block N           47   0     0     0 menu threed advanced
+linestyle Block O           46   0     0     0 menu threed advanced
+linestyle Block P           45   0     0     0 menu threed advanced
+linestyle Block Q           44   0     0     0 menu threed advanced
+linestyle Block R           43   0     0     0 menu threed advanced
+linestyle Block S           42   0     0     0 menu threed advanced
+linestyle Block T           41   0     0     0 menu threed advanced
+linestyle Block U           50   0     0     0 menu threed advanced
+linestyle Block V           49   0     0     0 menu threed advanced
+linestyle Block W           48   0     0     0 menu threed advanced
+linestyle Block X           47   0     0     0 menu threed advanced
+linestyle Block Y           46   0     0     0 menu threed advanced
+linestyle Block Z           45   0     0     0 menu threed advanced
+linestyle Invisible         -1   0     0     0 menu none advanced
+linestyle annotation        46   3.0   1.0   0 menu threed advanced
+linestyle Localarea Outer   40   0     0     0 menu threed advanced
+linestyle Localarea Inner   39   0     0     0 menu threed advanced
+linestyle Lastmod Construction 37 0    0     0 menu threed advanced
+linestyle Section Guideline 26   0     0     0 menu threed advanced
+linestyle Profile Wireline  46   0     0     0 menu threed advanced
+linestyle Left              28   0     0     0 menu both advanced
+linestyle Gross             32   0     0     0 menu both advanced
+linestyle Fake              30   0     0     0 menu both advanced
+linestyle Grid              31   0     0     0 menu both advanced
+linestyle Quality A         47   0     0     0 menu both advanced
+linestyle Quality B         48   0     0     0 menu both advanced
+linestyle Quality C         49   0     0     0 menu both advanced
+linestyle Quality D         46   0     0     0 menu both advanced
+linestyle Stretch           45   0     0     0 menu both advanced
+linestyle Size Marker       44   0     0     0 menu both advanced
+linestyle Slash             34   0     0     0 menu both advanced
+linestyle Footscan Section  48   0     0     0 menu threed advanced
+linestyle Last Section      47   0     0     0 menu threed advanced
+linestyle Imported          52   0     0     0 menu both advanced
+linestyle Model Attachment  52   0     0     0 menu both advanced
+linestyle Colour Red             101   0     0     0 menu both advanced
+linestyle Colour Green           102   0     0     0 menu both advanced
+linestyle Colour Blue            103   0     0     0 menu both advanced
+linestyle Colour Brown           104   0     0     0 menu both advanced
+linestyle Colour Yellow          105   0     0     0 menu both advanced
+linestyle Colour Purple          106   0     0     0 menu both advanced
+linestyle Colour LightBlue       107   0     0     0 menu both advanced
+linestyle Colour LightPurple     108   0     0     0 menu both advanced
+linestyle Colour Orange          109   0     0     0 menu both advanced
+linestyle Colour DarkGreen       110   0     0     0 menu both advanced
+$( The colours are set up in colour_macro_initial $)
+
+$( Set up the system line types $)
+
+Linetype Surface Upper           Layer 'Wire Frame'        Bundle default
+Linetype Surface Sole            Layer 'Wire Frame Sole'   Bundle default
+Linetype Surface Halves          Layer 'Halves'            Bundle default
+Linetype Surface Halves adjusted Layer 'Halves'            Bundle default
+Linetype Surface Model           Layer 'system'            Bundle default
+Linetype Surface Tooling         Layer 'system'            Bundle default
+Linetype Surface Specsheet       Layer 'system'            Bundle default
+Linetype Surface Shell           Layer 'system'            Bundle default
+Linetype Sketch                  Layer 'system'            Bundle sketch
+Linetype Sketch Background       Layer 'system'            Bundle background
+Linetype Digitised               Layer 'Digit Point'       Bundle default
+Linetype Heel Curve              Layer 'Fake'              Bundle default
+Linetype Flatten Outline         Layer 'Fake'              Bundle default
+Linetype Flatten Centreline      Layer 'Fake'              Bundle default
+Linetype Flatten Outline Inner   Layer 'Fake'              Bundle default
+Linetype Flatten Outline Outer   Layer 'Fake'              Bundle default
+Linetype Flatten Measures        Layer 'Fake'              Bundle default
+Linetype Cross                   Layer 'Cross'             Bundle default
+Linetype Arrow                   Layer 'Miscellaneous'     Bundle arrows
+Linetype Label                   Layer 'Miscellaneous'     Bundle label
+Linetype Restriction Arrow       Layer 'Miscellaneous'     Bundle restrict
+Linetype Grading Centre          Layer 'Grading Centre'    Bundle default
+Linetype Last Height             Layer 'Miscellaneous'     Bundle default
+Linetype Lastmod Construction    Layer 'Miscellaneous'     Bundle lastmod construction
+Linetype Section Twod            Layer 'Two D Section'     Bundle outline
+Linetype Section                 Layer 'Three D Section'   Bundle default
+Linetype Section Cutline         Layer 'Three D Section'   Bundle cut
+Linetype Section Guideline       Layer 'Section Guideline' Bundle section guideline
+Linetype Profile Key             Layer 'Profile'           Bundle default
+Linetype Profile                 Layer 'Profile'           Bundle default
+Linetype Profile Box             Layer 'Miscellaneous'     Bundle stitch a
+Linetype Profile Foot            Layer 'Miscellaneous'     Bundle stitch b
+Linetype Node                    Layer 'Miscellaneous'     Bundle node
+Linetype Localarea Inner         Layer 'Local Area Inner'  Bundle localarea inner
+Linetype Localarea Outer         Layer 'Local Area Outer'  Bundle localarea outer
+Linetype Piece                   Layer 'Miscellaneous'     Bundle default
+Linetype Arc Mating              Layer 'Mating Arc'        Bundle default
+Linetype Sketch Axis             Layer 'Miscellaneous'     Bundle default
+Linetype Specsheet Border        Layer 'Edge'              Bundle outline
+Linetype Unit Skeleton           Layer 'Miscellaneous'     Bundle default
+Linetype Fake                    Layer 'Fake'              Bundle fake
+Linetype Left                    Layer 'Left'              Bundle default
+Linetype Assessment Marker       Layer 'Miscellaneous'     Bundle default
+Linetype Gross                   Layer 'Gross'             Bundle gross
+Linetype Centre                  Layer 'Centre'            Bundle default
+Linetype Piece Text              Layer 'Piece Text'        Bundle text
+Linetype Feather Table           Layer 'Miscellaneous'     Bundle default
+Linetype Feather Guidance        Layer 'Miscellaneous'     Bundle default
+Linetype Arc Text                Layer 'Text'              Bundle text
+Linetype Compulast Normals       Layer 'compulast normals' Bundle default
+Linetype Compulast Points        Layer 'compulast points'  Bundle default
+Linetype Axes                    Layer 'Axes'              Bundle default
+Linetype Stab                    Layer 'Stabs'             Bundle punch
+Linetype Fourviews               Layer 'Fourviews'         Bundle default
+Linetype Annotation              Layer 'Annotation'        Bundle annotation
+Linetype Piece Spring            Layer 'Miscellaneous'     Bundle stitch a
+Linetype Footscan                Layer 'Footscan'          Bundle default
+Linetype Footscan Grid A         Layer 'Footscan Grid'     Bundle Block C
+Linetype Footscan Grid B         Layer 'Footscan Grid'     Bundle Block D
+Linetype Footscan Grid C         Layer 'Footscan Grid'     Bundle Block E
+Linetype Footscan Section        Layer 'Footscan Section'  Bundle Footscan Section
+Linetype Last     Section        Layer 'Last Section'      Bundle Last Section
+Linetype Triangles Selected      Layer 'Triangles Selected' Bundle stitch a
+Linetype Triangles Blend         Layer 'Triangles Blend'    Bundle stitch b
+Linetype Triangles Profile         Layer 'Triangles Profile' Bundle stitch c
+Linetype Triangles Polygon         Layer 'Triangles Polygon' Bundle stitch b
+Linetype Slash                   Layer 'Outline'            Bundle slash
+Linetype Triangles Refpoint        Layer 'Triangles Refpoint' Bundle default
+
+$( Set up the style line default layers $)
+
+Layer Default Linestyle Default      'Edge'
+Layer Default Linestyle Stitch A     'Stitch A'
+Layer Default Linestyle Stitch B     'Stitch B'
+Layer Default Linestyle Stitch C     'Stitch C'
+Layer Default Linestyle Stitch D     'Stitch D'
+Layer Default Linestyle Stitch E     'Stitch E'
+Layer Default Linestyle Stitch F     'Stitch F'
+Layer Default Linestyle Stitch G     'Stitch G'
+Layer Default Linestyle Stitch H     'Stitch H'
+Layer Default Linestyle Marker A     'Marker A'
+Layer Default Linestyle Marker B     'Marker B'
+Layer Default Linestyle Marker C     'Marker C'
+Layer Default Linestyle Centre       'Centre'
+Layer Default Linestyle Hole A       'Hole A'
+Layer Default Linestyle Hole B       'Hole B'
+Layer Default Linestyle Hole C       'Hole C'
+Layer Default Linestyle Punch        'Punch'
+Layer Default Linestyle Construction 'Construction'
+Layer Default Linestyle gcentre      'GLine'
+Layer Default Linestyle Linings      'Linings'
+Layer Default Linestyle Outline      'Outline'
+Layer Default Linestyle Invisible    'Invisible'
+Layer Default Linestyle Seam         'Seam'
+Layer Default Linestyle Slot         'Slot'
+Layer Default Linestyle Cut          'Cut'
+Layer Default Linestyle Quality A    'Quality A'
+Layer Default Linestyle Quality B    'Quality B'
+Layer Default Linestyle Quality C    'Quality C'
+Layer Default Linestyle Quality D    'Quality D'
+Layer Default Linestyle Stretch      'Stretch'
+Layer Default Linestyle Size Marker  'Size Marker'
+Layer Default Linestyle Slash        'Outline'
+Layer Default Linestyle Imported     'Imported'
+
+$.

@@ -1,0 +1,85 @@
+$(
+ *  TITLE               MEASURES ALL SETUP
+ *  FUNCTION            Set up the 3d last measures for all families
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure define clear
+
+last measure define             'Last Length (TNO)'                     key LastLength              distance 'LM7 (TNO)' last tno 'Toe Point' last tno
+last measure define             'Stick Length (TNO)'                    key StickLengthTNO          distance 'Toe Point' 'LM7 (TNO)'
+last measure define             'Heel to Central Ball Length (TNO)'     key HeelToCentralBallLength distance 'LM7 (TNO)' last tno 'Inside (Medial) Joint Point' mid 'Outside (Lateral) Joint Point' last tno
+last measure define             'Centre Ball to Toe Length (TNO)'       key CentralBallToToeLength  distance 'Toe Point' last tno 'Inside (Medial) Joint Point' mid 'Outside (Lateral) Joint Point' last tno
+last measure define             'Effective Length (Clarks)'             key EffectiveLength         distance 'Backcurve Swell Point (Clarks)' 'Effective Toe Point (Clarks)'
+last measure define Stick       'Stick Length (Clarks)'                 key StickLengthClarks summary profile 'stick_length' distance 'Backcurve Swell Point (Clarks)' groundrest 'Toe Swell Point' groundrest
+last measure define             'Ball Width (TNO)'                      key BallWidth               distance 'Inside (Medial) Joint Point' tno 'Outside (Lateral) Joint Point' tno
+last measure define             'Heel Width (TNO)'                      key HeelWidthTNO            distance 'Medial Heel Point (TNO)' tno 'Lateral Heel Point (TNO)' tno
+last measure define             'Ring Width (Clarks)'                   key RingWidth               profile 'ring_width' plane ring 'Inside Ring Width Point' 'Outside Ring Width Point' 'Centre Ring Width Point'
+last measure define             'Tread Width (Clarks)'                  key TreadWidth              distance 'Inside Tread Width Point (Clarks)' 'Outside Tread Width Point (Clarks)'
+last measure define HeelWidth   'Heel Width (Clarks)'                   key HeelWidthClarks         distance 'Inside Heel Width Point (Clarks)' 'Outside Heel Width Point (Clarks)'
+last measure define             'Toe Girth (TNO)'                       key ToeGirth                profile 'toe_girth' plane perimeter 'Inside (Medial) Joint Point' tno last 105
+last measure define             'Ball Girth (TNO)'                      key BallGirth               profile 'ball_girth' plane perimeter 'Inside (Medial) Joint Point' 'Outside (Lateral) Joint Point' ground 75
+last measure define             'Waist Girth (TNO)'                     key WaistGirth              profile 'waist_girth' plane perimeter 'Central Joint Girth Point (TNO)' 'Waist Girth Point (TNO)' last
+last measure define             'Instep Girth (TNO)'                    key InstepGirthTNO          profile 'instep_girth' plane perimeter 'Instep Point (TNO)' 'Instep Girth Point (TNO)' last
+last measure define             'Heel Girth (Short) (TNO)'              key ShortHeelGirth          profile 'short_heel_girth' plane perimeter 'Instep Point (TNO)' 'Heel Offset Point' last
+last measure define             'Heel Girth (Long) (TNO)'               key LongHeelGirth           profile 'long_heel_girth' plane perimeter 'Central Joint Girth Point (TNO)' 'Heel Offset Point' last
+last measure define             'Ball-Heel-Ball Girth (TNO)'            key BallHeelBallGirth       profile 'ball_heel_ball_girth' plane trimmed 'Inside (Medial) Joint Point' 'Outside (Lateral) Joint Point' 'Back Height Point'
+last measure define Joint       'Joint Girth (Clarks)'                  key JointGirth              profile 'joint_girth' plane thickness perimeter 'Inside Last Grading Point' 'Outside Last Grading Point' 'Centre Last Grading Point'
+last measure define             'Instep Girth (Clarks)'                 key InstepGirthClarks       profile 'instep_girth_clarks' plane perimeter 'Inside Instep Point (Clarks)' 'Outside Instep Point (Clarks)' 'Instep Point (Clarks)'
+last measure define             'Heel Raise (TNO)'                      key HeelRaise               distance 'Central Heel Point (TNO)' 'Central Heel Point (TNO)' tno
+last measure define             'Toe Spring'                            key ToeSpring               distance 'Toe Point' 'Toe Point' tno
+last measure define BlockPitch  'Block Pitch (Clarks)'                  key BlockPitch              distance 'Heel Point' 'Heel Point' tno
+last measure define             'Toe Depth At Foot Length (Clarks)'     key ToeDepthAtFootLength    distance 'Foot Length Point (Clarks)' 'Toe Depth (Foot Length) Point (Clarks)'
+last measure define             'Toe Depth At Growth Room (Clarks)'     key ToeDepthAtGrowthRoom    distance 'Growth Room Point (Clarks)' 'Toe Depth (Growth Room) Point (Clarks)'
+last measure define             'Toe Depth At 90% Foot Length (Clarks)' key ToeDepthAtNinetyPercent distance '90% Foot Length Point (Clarks)' 'Toe Depth (90% Foot Length) Point (Clarks)'
+last measure define             'Big Toe (Clarks)'                      key BigToe                  plane inner 'Big Toe Point (Clarks)' 'Big Toe Depth Point (Clarks)' innerrest
+last measure define BigToeDepth 'Big Toe Depth (Clarks)'                key BigToeDepth             distance 'Big Toe Point (Clarks)' 'Big Toe Depth Point (Clarks)'
+last measure define             'Little Toe (Clarks)'                   key LittleToe               plane outer 'Little Toe Point (Clarks)' 'Little Toe Depth Point (Clarks)' innerrest
+last measure define             'Little Toe Depth (Clarks)'             key LittleToeDepth          distance 'Little Toe Point (Clarks)' 'Little Toe Depth Point (Clarks)'
+last measure define             'Heel To Centre Joint (Clarks)'         key HeelToCentreJoint       distance 'Backcurve Swell Point (Clarks)' 'Centre Last Grading Point'
+last measure define             'Heel To Outside Joint (Clarks)'        key HeelToOutsideJoint      distance 'Backcurve Swell Point (Clarks)' 'Outside Last Grading Point'
+last measure define             'Heel To Inside Joint (Clarks)'         key HeelToInsideJoint       distance 'Backcurve Swell Point (Clarks)' 'Inside Last Grading Point'
+last measure define             'Heel To Ball (Clarks)'                 key HeelToBall              distance 'Heel Point' 'Ball Point (Clarks)'
+last measure define             'Short Heel (Clarks)'                   key ShortBall               distance 'Heel Point' 'Instep Point (Clarks)'
+
+last measure define             'Ring Width % Of Joint Girth (Clarks)'  key RingWidthPercent        percentage 'Ring Width (Clarks)' 'Joint Girth (Clarks)'
+last measure define             'Tread Width % Of Joint Girth (Clarks)' key TreadWidthPercent       percentage 'Tread Width (Clarks)' 'Joint Girth (Clarks)'
+
+last measure define             'Overall Length (FIA)'                  key OverallLengthFIA        distance 'Heel Plane Contact Point' inner ground 'Toe Plane Contact Point' inner ground
+last measure define             'Horizontal Ball Width (FIA)'           key HorzBallWidthFIA        distance 'Outside Ball Point' 'Outside Ball Point' inner
+last measure define             'Heel to Inner Ball Length (FIA)'       key HeelToInnerBallLenFIA   distance 'Heel Plane Contact Point' inner ground 'Ball Point (Clarks)' inner ground
+last measure define             'Ball Girth (FIA)'                      key BallGirthFIA            profile 'ball_girth_fia' plane perimeter 'Ball Point (Clarks)' 'Outside Ball Point' ground
+last measure define             'Heel Width (FIA)'                      key HeelWidthFIA            plane outer 'Inside Heel Width Point (Clarks)' ground inner
+last measure define             'Instep Girth (FIA)'                    key InstepGirthFIA          profile 'instep_girth_fia' plane perimeter 'Instep Point (FIA)' ground inner
+last measure define             'Instep Height (RR)'                    key InstepHeightRR          distance 'Instep Point (FIA)' 'Instep Point (FIA)' groundrest
+last measure define             'Instep to Heel Girth (FIA)'            key InstepToHeelGirthFIA    profile 'instep_to_heel_girth' plane perimeter 'Instep Point (FIA)' 'Heel Point' inner
+last measure define             'Heel to Outer Ball (FIA)'              key HeelToOuterBallFIA      distance 'Heel Plane Contact Point' outer normal inner ground 'Outside Ball Point' ground
+last measure define             'Instep Opening Girth (FIA)'            key InstepOpeningGirthFIA   profile 'instep_opening_girth' plane perimeter 'Instep Point (FIA)' 'Heel Plane Contact Point' inner
+last measure define             'Inner mid-toe distance (FIA)'          key InnerMidToeDistanceFIA  distance 'Inside Mid Toe Point' 'Inside Mid Toe Point' inner
+last measure define             'Outer mid-toe distance (FIA)'          key OuterMidToeDistanceFIA  distance 'Outside Mid Toe Point' 'Outside Mid Toe Point' inner
+last measure define             'Waist Girth (FIA)'                     key WaistGirthFIA           profile 'waist_girth_fia' plane perimeter 'Inside Waist Girth Point' 'Outside Waist Girth Point' 'Centre Waist Girth Point'
+
+last measure define             'Heel to Toe'                           key HeelToToe               profile 'heel_to_toe' plane trimmed from 'Toe Point' to 'Heel Point' via 'Tread Point' plane stick
+last measure define StickWidth  'Stick Width'                           key StickWidth              distance width 'Inside Stick Width Point' 'Outside Stick Width Point'
+last measure define InnerFeather 'Inner Feather Edge'                 key InnerFeather       profile 'inner_feather' surface distance 'Toe Point' 'Heel Point Inner'
+last measure define OuterFeather 'Outer Feather Edge'                 key OuterFeather       profile 'outer_feather' surface distance 'Toe Point' 'Heel Point'
+
+$( ORTHOPAEDIC FOOT MEASURES $)
+last measure define tenpcgirth    'Girth (10%)'                         key GirthPC10                 profile 'girth10pc' plane perimeter 'Toe Point' 'Heel Point' fraction 0.1 ground
+last measure define twentypcgirth 'Girth (20%)'                         key GirthPC20                 profile 'girth20pc' plane perimeter 'Toe Point' 'Heel Point' fraction 0.2 ground
+last measure define fortypcgirth  'Girth (40%)'                         key GirthPC40                 profile 'girth40pc' plane perimeter 'Toe Point' 'Heel Point' fraction 0.4 ground
+
+last measure define twentywidth   'Width (20%)'                         key WidthPC20                 distance 'Inner 20% Width Point'  'Outer 20% Width Point'
+last measure define seventyfivewidth 'Heel Width (75%)'                 key HeelWidthPC75             distance 'Inner 75% Width Point'  'Outer 75% Width Point'
+last measure define tenwidth      'Toe Width (10%)'                     key ToeWidthPC10              distance 'Inner 10% Width Point'  'Outer 10% Width Point'
+
+last measure define instepopengirth  'Instep Opening Girth CSM'         key InstepOpeningGirthCSM     profile 'instep_opening_girth_70pc' plane perimeter 'Inner 70% Instep Point' 'Outer 70% Instep Point' '40% Instep Point'
+last measure define diagonalinstep   'Diagonal Instep'                  key DiagonalInstep            profile 'diagonal_instep' plane perimeter 'Inner 90% Instep Point' 'Outer 90% Instep Point' '40% Instep Point'
+
+last measure define tentoeheight  'Toe Height (10%)'                    key ToeHeightPC10             distance 'Lower 10% Toe Height Point'  'Upper 10% Toe Height Point'
+
+
+$.

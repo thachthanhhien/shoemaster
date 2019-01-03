@@ -1,0 +1,43 @@
+$(
+ *  TITLE               LAST MEASURE PARAMETERS
+ *  FUNCTION            Set up the 3d last measure parameters
+ *
+ *                      These values specific to Clarks
+ *
+ *  gr  = Growth Room, for children's lasts.
+ *  uai = Under Ankle Inner supplement.
+ *  Size dependent parameters stored in a table, such that the structure of each line is:
+ *  Size  FootLength  BackHeight  InstepOffset  BigToe LittleToe  UnderAnkleCentre  UnderAnkleOuter.
+ *                      
+ *  AUTHOR              Patrick Brooke 14 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last reference point parameters
+set gr 10
+set uai 3
+set table ch 4  117.0 32.0 30.5 10.0  99.0 25.5 20.5
+set table ch 5  126.0 33.5 32.0 11.0 105.0 27.0 22.0
+set table ch 6  134.0 35.0 33.5 12.0 111.0 28.5 24.0
+set table ch 7  143.0 36.5 35.0 13.0 117.0 30.0 25.5
+set table ch 8  151.0 38.0 36.5 14.0 123.0 32.0 27.0
+set table ch 9  160.0 39.5 38.0 15.0 129.0 33.5 28.5
+set table ch 10 168.0 41.5 39.5 16.0 135.0 35.0 30.0
+set table ch 11 176.0 43.0 41.0 17.0 140.0 36.5 32.0
+set table ch 12 185.0 44.5 42.5 18.0 147.0 38.0 33.5
+set table ch 13 193.0 46.0 44.0 19.0 153.0 40.0 35.0
+set table 1     202.0 47.5 45.5 20.0 159.0 41.5 36.5
+set table 2     210.0 49.0 47.0 21.0 165.0 43.0 36.5
+set table 3     218.5 51.0 48.5 22.0 170.5 44.5 38.0
+set table 4     227.0 52.5 50.0 23.0 177.0 46.0 40.0
+set table 5     236.0 54.0 51.5 24.0 183.0 47.5 41.5
+set table 6     244.0 55.5 53.0 25.0 189.0 49.5 43.0
+set table 7     252.0 57.0 54.5 26.0 195.0 51.0 44.5
+set table 8     260.0 59.0 56.0 27.0 201.0 52.5 46.0
+set table 9     269.0 60.5 57.5 28.0 207.0 54.0 47.5
+set table 10    278.0 62.0 59.0 29.0 213.0 55.5 49.5
+set table 11    287.0 63.5 60.5 30.0 219.0 57.0 51.0
+accept
+
+$.

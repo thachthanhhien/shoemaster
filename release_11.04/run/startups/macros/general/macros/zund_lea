@@ -1,0 +1,14 @@
+$(
+ *  TITLE               ZUND LEAther
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+disable text 
+disable marker lines
+disable punch cut
+disable punch cross
+communications device 'Zund'             settings knife acceleration 1

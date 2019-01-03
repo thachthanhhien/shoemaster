@@ -1,0 +1,15 @@
+$(
+ *  TITLE               SHOEMASTER CLASSIC
+ *  FUNCTION            specific things for shoemaster classic
+ *
+ *  AUTHOR              Patrick Brooke 20 Dec   2000 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/shoemaster_all
+
+$( QSM Startup Classic $)
+$n//release/run/startups/macros/advanced_macros/classic.ini
+
+$.

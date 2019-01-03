@@ -1,0 +1,214 @@
+$(
+ *  TITLE               SHOEMASTER_ALL startup
+ *  FUNCTION            This startup file contains all the settings that are common to all
+ *                      shoemaster programs and are generally the same for each
+ *                      group of users. Note it is possible that some parameters are
+ *                      reset in the group specific files .
+ *                      
+ *  AUTHOR              Ayman Hatem    20 Sep   2001 CSM3D
+ *  MODIFICATIONS
+ *
+$)
+
+$( Run general macros $)
+
+$m //release/run/startups/macros/general/macros/shoemaster_tablet
+$m //release/run/startups/macros/general/macros/piece_name
+$m //release/run/startups/macros/general/macros/linetypes_macro
+$m //release/run/startups/macros/general/macros/colour_macro_initial
+$m //release/run/startups/macros/general/macros/interface_communications
+$m //release/run/startups/macros/general/macros/spec_sheet_form
+
+utilities umask 0
+
+break grade ch13
+
+$( Default printing program $)
+utilities notepad print command 'c:\program files\internet explorer\iexplore.exe'
+
+filename iges /iges_file
+
+default arc round 5 lap           $( configurable lap marker continuity  $)
+default lap marker 0              $( configurable lap marker offset for marker from nett $)
+default arc undercut marker 5     $( undercut for a trimmed marker $)
+default arc undercut lap 5        $( undercut for a marked lap $)
+default lap a 8
+default lap b 5
+default lap c 3.5
+default lap d 1.5                 $( configurable seam offset $)
+
+new piece text menu entry 'Mark'
+new piece text menu entry 'Pricker'
+new piece text menu entry 'Blunt Pricker'
+new piece text menu entry 'Stab'
+new piece text menu entry 'In'
+new piece text menu entry 'Out'
+new piece text menu entry '1/16 in'
+new piece text menu entry '1/32 in'
+new piece text menu entry 'Blade'
+new piece text menu entry 'Slot'
+new piece text menu entry 'Size Code'
+new piece text menu entry 'Fit Code'
+new piece text menu entry 'Width'
+new piece text menu entry 'Bagged'
+new piece text menu entry 'Bead'
+new piece text menu entry 'Bound'
+new piece text menu entry 'Seam'
+new piece text menu entry 'U/lay'
+new piece text menu entry 'Matrix'
+new piece text menu entry 'Raw'
+new piece text menu entry 'Toe Skive'
+new piece text menu entry 'Seat Skive'
+new piece text menu entry '3/4 s/e'
+new piece text menu entry '1 1/4 s/e'
+new piece text menu entry '3/4 d/e'
+
+piece name option 1
+
+new text '%s;%l;%p;%n;%u' save
+
+rubber band colour 37 
+
+surface selected last
+surface unselected tooling
+
+grid spacing 10
+grid offset 0
+
+parameter curve 0.001 0.03 5 40
+parameter spiral 2
+                                   $(* DEFAULT SIZES OF DETAILS TEXT HOLES  *$)
+default arc outline
+default hartland     family e size  15  height 4
+default scallop      family e size  15  height 3
+default notch        family d size  1.5 height 1.5 slope  90
+default gap          family f size  5
+default gap          tinysize 0.04
+default slash        family g size  6   slope  90
+default stab         family a size  1
+default square notch family d size  2   slope  90
+default size code    family h
+default text charsize   3
+default text font       1
+default text pencolour  1
+default text pitch      1
+default hole a 1
+default hole b 2
+default hole c 3
+
+                                  $(* ENABLE/DISABLES *$)
+enable dynamic lines
+enable thickness
+enable joins
+enable offsets
+enable picture
+enable family a
+enable family b
+enable family c
+enable family d
+enable family e
+enable family f
+enable family g
+enable family h
+enable feather
+enable cross
+enable mating
+enable move
+enable whole line
+enable annotation
+enable stabs
+enable marker lines
+enable errors menu
+enable zzz
+enable tied
+enable warning heel grade
+disable debug
+
+disable hidden
+disable fold
+disable piece text
+disable packet text
+disable labels
+disable nodes
+disable tablet
+disable text
+disable broken
+disable rubber banding
+disable rectangle
+disable pixel blitting
+disable preserve
+disable arrows
+disable errors
+disable restrict
+disable printer
+disable milling outlines
+disable milling markers
+disable milling stabs
+verify milling
+
+                                  $(* GRADING *$)
+
+menu ranges     'As model'
+menu ranges add 'Natural'
+menu ranges add 'Model fitting only'
+menu ranges add 'Whole size model half up'
+menu ranges add 'Whole size model half down'
+menu ranges add 'Half size model whole up'
+menu ranges add 'Half size model whole down'
+
+                                 $(* VIEWS *$)
+scale two to 1 home
+scale two save
+graphics segment create extra off
+render texture mode full
+
+style transfer switch on tooling unit feather patterns punches
+
+set arc variable offset spacing 0.01
+style line tied variable offset spacing 0.01
+feather spacing 0.01
+
+$( communications device 'Iges'       add settings units 1.0 offset 0 0 arc 5 15 3 $)
+
+$( communications device 'Postscript' add settings units 1.0 offset 0 0 arc 5 15 3 $)
+
+utilities command key 'F4' command '\yutilities dialogs toggle'
+
+set tolerance 0.00001
+
+style modified notification on
+
+bitmap editor path 'mspaint.exe'
+$n //release/run/config/macros/bitmap_editor
+
+graphics tooltips on
+
+sizes english low ch2 high 14
+sizes continental low 18 high 50
+sizes metric low 200 high 400
+
+sizes english default
+
+pattern text diy list clear
+pattern text diy list add 'Bar'            '%N %S %L %P;%D %U'
+pattern text diy list add 'Leather'        'lea'
+pattern text diy list add 'Lining'         'lng'
+pattern text diy list add 'Synthetic'      'syn'
+pattern text diy list add 'Fabric'         'fabric'
+pattern text diy list add 'Size & Fit'     '%s'
+pattern text diy list add 'Size & Fit Range'     '%r'
+pattern text diy list add 'Size Alone'     '%z'
+pattern text diy list add 'Fit Alone'      '%t'
+pattern text diy list add 'Project Name'   '%j'
+pattern text diy list add 'Style Name'     '%p'
+pattern text diy list add 'Packet Name'    '%k'
+pattern text diy list add 'Piece Name'     '%n'
+pattern text diy list add 'Perimeter'      '%m'
+pattern text diy list add 'Area'           '%a'
+pattern text diy list add 'Date'           '%d'
+pattern text diy list add 'Your Name'      '%u'
+
+$( Disable drag selection of lasts and pieces $)
+groups selection drag disable piece last
+
+$.

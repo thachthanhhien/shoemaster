@@ -1,0 +1,19 @@
+$(
+ *  TITLE               SHOEMASTER LEATHER
+ *  FUNCTION            specific things for shoemaster leathergoods
+ *
+ *  AUTHOR              Ayman Hatem    16 Feb   2009 CSM3D  
+ *  MODIFICATIONS
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/shoemaster_all
+
+$( set up tablet to generate piece auto-collection commands $)
+tablet using 21 
+tablet output /com1
+
+$( QSM Startup Leathergoods $)
+$n//release/run/startups/macros/advanced_macros/leather.ini
+
+$.

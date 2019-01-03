@@ -1,0 +1,15 @@
+$(
+ *  TITLE               ZUND BEXTRENE
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+enable text
+enable marker lines
+disable punch cut
+disable punch cross
+spacing 5
+communications device 'Zund'             settings knife acceleration 2

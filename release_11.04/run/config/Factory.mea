@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MeasureAndRulesFile>
+	<Section sectionName="Ball" sectionType="width" positionValue="75.00" positionType="percent" positionAlongSurface="true" positionAlongFoot="true" rotationHorizontal="11.00" rotationVertical="0.00" rotationFromSurface="false" optionsAsFoot="false">
+		<Measure measureName="Girth" measureType="girth" positionValue="50.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+		<Measure measureName="Width" measureType="width" positionValue="25.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+		<Measure measureName="Height" measureType="height" positionValue="25.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+	</Section>
+	<Section sectionName="Waist" sectionType="width" positionValue="61.00" positionType="percent" positionAlongSurface="true" positionAlongFoot="true" rotationHorizontal="0.00" rotationVertical="10.00" rotationFromSurface="false" optionsAsFoot="false">
+		<Measure measureName="Girth" measureType="girth" positionValue="50.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+	</Section>
+	<Section sectionName="Instep" sectionType="width" positionValue="50.00" positionType="percent" positionAlongSurface="true" positionAlongFoot="true" rotationHorizontal="0.00" rotationVertical="14.00" rotationFromSurface="false" optionsAsFoot="false">
+		<Measure measureName="Girth" measureType="girth" positionValue="50.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+		<Measure measureName="Width" measureType="width" positionValue="25.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+		<Measure measureName="Height" measureType="height" positionValue="40.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+	</Section>
+	<Section sectionName="Heel" sectionType="width" positionValue="5.00" positionType="percent" positionAlongSurface="true" positionAlongFoot="true" rotationHorizontal="0.00" rotationVertical="55.00" rotationFromSurface="false" optionsAsFoot="false">
+		<Measure measureName="Girth" measureType="girth" positionValue="50.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+		<Measure measureName="Width" measureType="width" positionValue="25.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+	</Section>
+	<Section sectionName="Toe" sectionType="width" positionValue="90.00" positionType="percent" positionAlongSurface="true" positionAlongFoot="true" rotationHorizontal="0.00" rotationVertical="0.00" rotationFromSurface="false" optionsAsFoot="false">
+		<Measure measureName="Height" measureType="height" positionValue="25.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+	</Section>
+	<Section sectionName="Leg" sectionType="height" positionValue="110.00" positionType="mm" positionAlongSurface="false" positionAlongFoot="false" rotationHorizontal="0.00" rotationVertical="0.00" rotationFromSurface="false" optionsAsFoot="true">
+		<Measure measureName="Circ" measureType="girth" positionValue="50.00" positionType="percent" positionAtMaximum="false" rotationAngle="0.00" optionsAsFoot="false"/>
+	</Section>
+	
+	<Rule sectionName="Toe" measureName="Height" enabled="false" ruleType="footPlusAbsolute" adjust="4.00" tolerance="2.00" girthScalingControl="byHeight"/>
+	
+	<Rule sectionName="Ball" measureName="Width" enabled="false" ruleType="footPlusAbsolute" adjust="4.00" tolerance="2.00" girthScalingControl="byWidth"/>
+	<Rule sectionName="Ball" measureName="Girth" enabled="true" ruleType="footPlusAbsolute" adjust="6.00" tolerance="2.00" girthScalingControl="byWidthAndHeight"/>
+	<Rule sectionName="Ball" measureName="Height" enabled="false" ruleType="footPlusAbsolute" adjust="2.00" tolerance="2.00" girthScalingControl="byWidth"/>
+
+	<Rule sectionName="Waist" measureName="Girth" enabled="false" ruleType="footPlusAbsolute" adjust="4.00" tolerance="2.00" girthScalingControl="byWidthAndHeight"/>
+
+	<Rule sectionName="Instep" measureName="Width" enabled="false" ruleType="foot" adjust="0.00" tolerance="2.00" girthScalingControl="byWidth"/>
+	<Rule sectionName="Instep" measureName="Girth" enabled="true" ruleType="foot" adjust="0.00" tolerance="2.00" girthScalingControl="byHeight"/>
+	<Rule sectionName="Instep" measureName="Height" enabled="false" ruleType="foot" adjust="0.00" tolerance="2.00" girthScalingControl="byHeight"/>
+	
+	<Rule sectionName="Heel" measureName="Width" enabled="false" ruleType="footPlusAbsolute" adjust="3.00" tolerance="2.00" girthScalingControl="byWidth"/>
+	<Rule sectionName="Heel" measureName="Girth" enabled="true" ruleType="foot" adjust="0.00" tolerance="2.00" girthScalingControl="byWidth"/>
+	
+	<Rule sectionName="Leg" measureName="Circumference" enabled="false" ruleType="hold" adjust="0.00" tolerance="2.00" girthScalingControl="byWidth"/>
+</MeasureAndRulesFile>

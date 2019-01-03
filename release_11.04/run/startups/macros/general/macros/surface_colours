@@ -1,0 +1,17 @@
+$(
+ *  TITLE               SURFACE COLOURS
+ *  FUNCTION            Set up surface colour indices for all programs
+ *
+ *  AUTHOR              Clive Blower   27 Feb   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last balance left
+surface outer surface 2 inner surface 4 selected last
+surface outer surface 2 inner colour  4 unselected lastbottom
+last balance right
+surface outer surface 1 inner colour  4 selected last
+surface outer surface 1 inner colour  4 unselected lastbottom
+
+$.

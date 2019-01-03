@@ -1,0 +1,13 @@
+$(
+ *  TITLE               SHOEMASTER INTERFACE
+ *  FUNCTION            specific things for shoemaster interface
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/shoemaster_all
+$m //release/run/startups/macros/general/macros/interface
+
+$( QSM Startup Interface $)
+$n//release/run/startups/macros/advanced_macros/interface.ini
+
+$.

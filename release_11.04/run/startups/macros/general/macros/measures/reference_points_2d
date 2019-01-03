@@ -1,0 +1,118 @@
+$(
+ *  TITLE               REFERENCE POINTS 2D
+ *  FUNCTION            Set up the 2d reference points
+ *                      
+ *  AUTHOR              Patrick Brooke 14 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+reference point id     Shoemaster 'ToePoint'                   'Toe Point'                             fixed   active
+reference point id     Shoemaster 'InsideLastGradingPoint'     'Inside Last Grading Point'                   inactive
+reference point id     Shoemaster 'OutsideLastGradingPoint'    'Outside Last Grading Point'                  inactive
+reference point id     Shoemaster 'TopConePoint'               'Top Cone Point'                        fixed inactive
+reference point id     Shoemaster 'HeelPoint'                  'Heel Point'                            fixed inactive
+reference point id     Shoemaster 'TopHeelCurvePoint'          'Top Heel Curve Point (TNO)'            fixed inactive
+reference point id     Shoemaster 'CentreLastGradingPoint'     'Centre Last Grading Point'                   inactive
+reference point id     Shoemaster 'InsideBallPoint'            'Ball Point (Clarks)'                   fixed inactive
+reference point id     Shoemaster 'InsideHeelWidthPoint'       'Inside Heel Width Point (Clarks)'      fixed inactive
+reference point id     TNO        'LM7'                        'LM7 (TNO)'                                   inactive
+reference point id     Clarks     'BackcurveSwellPoint'        'Backcurve Swell Point (Clarks)'              inactive
+reference point id     TNO        'CentralJointGirthPoint'     'Central Joint Girth Point (TNO)'             inactive
+reference point id     TNO        'WaistGirthPoint'            'Waist Girth Point (TNO)'                     inactive
+reference point id     TNO        'InstepGirthPoint'           'Instep Girth Point (TNO)'                    inactive
+reference point id     TNO        'CentralWaistGirthPoint'     'Central Waist Girth Point (TNO)'             inactive
+reference point id     TNO        'CentralInstepGirthPoint'    'Central Instep Girth Point (TNO)'            inactive
+reference point id     TNO        'CentralHeelPoint'           'Central Heel Point (TNO)'                    inactive
+reference point id     TNO        'MedialHeelPoint'            'Medial Heel Point (TNO)'                     inactive
+reference point id     TNO        'LateralHeelPoint'           'Lateral Heel Point (TNO)'                    inactive
+reference point id     Clarks     'EffectiveToePoint'          'Effective Toe Point (Clarks)'                inactive
+reference point id     Clarks     'GrowthRoomPoint'            'Growth Room Point (Clarks)'                  inactive
+reference point id     Clarks     'FootLengthPoint'            'Foot Length Point (Clarks)'                  inactive
+reference point id     Clarks     '90FootLengthPoint'          '90% Foot Length Point (Clarks)'              inactive
+reference point id     Clarks     'InstepPoint'                'Instep Point (Clarks)'                       inactive
+reference point id     Clarks     'ToeDepth90FootLengthPoint'  'Toe Depth (90% Foot Length) Point (Clarks)'  inactive
+reference point id     Clarks     'ToeDepthFootLengthPoint'    'Toe Depth (Foot Length) Point (Clarks)'      inactive
+reference point id     Clarks     'ToeDepthGrowthRoomPoint'    'Toe Depth (Growth Room) Point (Clarks)'      inactive
+reference point id     Clarks     'InsideTreadWidthPoint'      'Inside Tread Width Point (Clarks)'           inactive
+reference point id     Clarks     'OutsideTreadWidthPoint'     'Outside Tread Width Point (Clarks)'          inactive
+reference point id     Shoemaster 'OutsideHeelContactPoint'    'Outside Heel Width Point (Clarks)'     fixed inactive
+reference point id     Clarks     'BigToePoint'                'Big Toe Point (Clarks)'                      inactive
+reference point id     Clarks     'BigToeDepthPoint'           'Big Toe Depth Point (Clarks)'                inactive
+reference point id     Clarks     'LittleToePoint'             'Little Toe Point (Clarks)'                   inactive
+reference point id     Clarks     'LittleToeDepthPoint'        'Little Toe Depth Point (Clarks)'             inactive
+reference point id     Clarks     'OutsideInstepPoint'         'Outside Instep Point (Clarks)'               inactive
+reference point id     Clarks     'InsideInstepPoint'          'Inside Instep Point (Clarks)'                inactive
+reference point id     TNO        'BackHeightPoint'            'Back Height Point'                           inactive
+reference point id     TNO        'MidBackPoint'               'Mid-Back Point (TNO)'                        inactive
+reference point id     TNO        'VampPoint'                  'Vamp Point (TNO)'                            inactive
+reference point id     Shoemaster 'VampPoint'                  'Vamp Point (Clarks)'                           active
+reference point id     TNO        'InstepPoint'                'Instep Point (TNO)'                          inactive
+reference point id     TNO        'MedialQuarterPoint'         'Medial Quarter Point (TNO)'                  inactive
+reference point id     TNO        'LateralQuarterPoint'        'Lateral Quarter Point (TNO)'                 inactive
+reference point id     TNO        'MedialBreastPoint'          'Medial Breast Point (TNO)'                   inactive
+reference point id     TNO        'LateralBreastPoint'         'Lateral Breast Point (TNO)'                  inactive
+reference point id     TNO        'MedialAnkleheightPoint'     'Medial Ankleheight Point (TNO)'              inactive
+reference point id     TNO        'LateralAnkleheightPoint'    'Lateral Ankleheight Point (TNO)'             inactive
+reference point id     TNO        'MudguardPoint'              'Mudguard Point (TNO)'                          active
+reference point id     TNO        'ToeCapPoint'                'Toe Cap Point (TNO)'                         inactive
+reference point id     Shoemaster 'ForwardGradingAxisPoint'    'Forward Grading Axis Point'                  inactive
+reference point id     Shoemaster 'RearGradingAxisPoint'       'Rear Grading Axis Point'                     inactive
+reference point id     Clarks     'InsideBackHeight'           'Inside Back Height'                          inactive
+reference point id     Clarks     'OutsideBackHeight'          'Outside Back Height'                         inactive
+reference point id     Shoemaster 'BackHeight'                 'Back Height (Clarks)'                        inactive
+reference point id     Clarks     'VampPointA'                 'Vamp Point A'                                inactive
+reference point id     Clarks     'VampPointB'                 'Vamp Point B'                                inactive
+reference point id     Clarks     'VampPointC'                 'Vamp Point C'                                inactive
+reference point id     Shoemaster 'InnerTopOfCone'             'Inner Top of Cone'                             active
+reference point id     Shoemaster 'OuterTopOfCone'             'Outer Top of Cone'                             active
+reference point id     Shoemaster 'InnerBackHeight'            'Inner Back Height'                             active
+reference point id     Shoemaster 'OuterBackHeight'            'Outer Back Height'                             active
+reference point id     Shoemaster 'InnerHeelPoint'             'Inner Heel Point'                              active
+reference point id     Shoemaster 'OuterHeelPoint'             'Outer Heel Point'                              active
+reference point id     TNO        'InnerInstepPoint'           'Inner Instep Point'                          inactive
+reference point id     TNO        'OuterInstepPoint'           'Outer Instep Point'                          inactive
+reference point id     Shoemaster 'InnerWidthPoint'            'Inner Width Point'                             active
+reference point id     Shoemaster 'OuterWidthPoint'            'Outer Width Point'                             active
+reference point id     TNO        'InnerTopOfHeelCurve'        'Inner Top of Heel Curve'                     inactive
+reference point id     TNO        'OuterTopOfHeelCurve'        'Outer Top of Heel Curve'                     inactive
+reference point id     TNO        'InnerMidBackPoint'          'Inner Mid-Back Point'                        inactive
+reference point id     TNO        'OuterMidBackPoint'          'Outer Mid-Back Point'                        inactive
+reference point id     FIA        'InstepPoint'                'Instep Point (FIA)'                          inactive
+reference point id     FIA        'OutsideHeelWidthPoint'      'Outside Heel Width Point'                    inactive
+reference point id     TNO        'MedialJointPoint'           'Inside (Medial) Joint Point'                 inactive
+reference point id     TNO        'LateralJointPoint'          'Outside (Lateral) Joint Point'               inactive
+reference point id     TNO        'CentreJointPoint'           'Centre Joint Point (Clarks)'                 inactive
+reference point id     Shoemaster 'OutsideBallPoint'           'Outside Ball Point'                    fixed inactive
+reference point id     Shoemaster 'HeelPlaneContactPoint'      'Heel Plane Contact Point'              fixed inactive
+reference point id     Shoemaster 'ToePlaneContactPoint'       'Toe Plane Contact Point'               fixed inactive
+reference point id     Shoemaster 'TreadPoint'                 'Tread Point'                           fixed inactive
+reference point id     Shoemaster 'ForwardSectionAxisPoint'    'Forward Section Axis Point'                  inactive
+reference point id     Shoemaster 'RearSectionAxisPoint'       'Rear Section Axis Point'                     inactive
+reference point id     FIA        'InsideMidToePoint'          'Inside Mid Toe Point'                        inactive
+reference point id     FIA        'OutsideMidToePoint'         'Outside Mid Toe Point'                       inactive
+reference point id     TNO        'HeelOffsetPoint'            'Heel Offset Point'                           inactive
+reference point id     Custom     'CLGP55OffsetPoint'          'CLGP 55mm Offset Point'                      inactive
+reference point id     Custom     'CLGP60OffsetPoint'          'CLGP 60mm Offset Point'                      inactive
+reference point id     Custom     'CLGP65OffsetPoint'          'CLGP 65mm Offset Point'                      inactive
+reference point id     Custom     'Heel35OffsetPoint'          'Heel 35mm Offset Point'                      inactive
+reference point id     Custom     'Heel160OffsetPoint'         'Heel 160mm Offset Point'                     inactive
+reference point id     Clarks     'InsideRingWidthPoint'       'Inside Ring Width Point'                     inactive
+reference point id     Clarks     'OutsideRingWidthPoint'      'Outside Ring Width Point'                    inactive
+reference point id     Clarks     'CentreRingWidthPoint'       'Centre Ring Width Point'                     inactive
+reference point id     Shoemaster 'ToeSwellPoint'              'Toe Swell Point'                             inactive
+reference point id     FIA        'InsideWaistGirthPoint'      'Inside Waist Girth Point'                    inactive
+reference point id     FIA        'OutsideWaistGirthPoint'     'Outside Waist Girth Point'                   inactive
+reference point id     FIA        'CentreWaistGirthPoint'      'Centre Waist Girth Point'                    inactive
+reference point id   Construction 'ConstFacingFrontPoint'      'Construction Facing Front Point'             inactive
+reference point id   Construction 'ConstOuterFacingTopPoint'   'Construction Outer Facing Top Point'         inactive
+reference point id   Construction 'ConstInnerFacingTopPoint'   'Construction Inner Facing Top Point '        inactive
+reference point id   Construction 'ConstInnerBackHeight'       'Construction Inner Back Height'              inactive
+reference point id   Construction 'ConstInnerUnderAnklePoint'  'Construction Inner Under Ankle Point'        inactive
+reference point id   Construction 'ConstInnerFrontQuarter'     'Construction Inner Front Quarter'            inactive
+reference point id   Construction 'ConstOuterBackHeight'       'Construction Outer Back Height'              inactive
+reference point id   Construction 'ConstApronPoint'            'Construction Apron Point'                    inactive
+reference point id   Construction 'ConstOuterUnderAnklePoint'  'Construction Outer Under Ankle Point'        inactive
+reference point id   Construction 'ConstOuterFrontQuarter'     'Construction Outer Front Quarter'            inactive
+
+$.

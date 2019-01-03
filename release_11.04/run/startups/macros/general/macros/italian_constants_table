@@ -1,0 +1,17 @@
+$(
+ *  TITLE               ITALIAN _ CONSTANTS _ TABLE
+ *  FUNCTION            Set up the constants table for the italian putup
+ *
+ *  AUTHOR              Patrick Brooke  4 Jul   1995 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+ 
+italian constants
+    8.5000  1.1660
+    8.0952  1.1650
+    0.7658  1.0954
+    0.7522  1.0953
+accept
+
+$.

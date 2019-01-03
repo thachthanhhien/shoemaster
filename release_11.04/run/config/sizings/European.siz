@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sizings>
+  <system name="Adult Male">
+    <size name="39" length="242.5"></size>
+    <size name="39.5" length="247.5"></size>
+    <size name="40" length="252.5"></size>
+    <size name="41" length="257.5"></size>
+    <size name="41.5" length="262.5"></size>
+    <size name="42" length="267.5"></size>
+    <size name="42.5" length="272.5"></size>
+    <size name="43" length="277.5"></size>
+    <size name="44" length="282.5"></size>
+    <size name="44.5" length="287.5"></size>
+    <size name="45" length="292.5"></size>
+    <size name="46" length="297.5"></size>
+    <size name="46.5" length="302.5"></size>
+    <size name="47" length="307.5"></size>
+    <size name="48" length="315.0"></size>
+    <size name="49" length="325.0"></size>
+    <size name="50" length="335.0"></size>
+    <size length="345.0"></size>
+  </system>
+  <system name="Adult Female">
+    <size name="34" length="207.5"></size>
+    <size name="35" length="212.5"></size>
+    <size name="35.5" length="217.5"></size>
+    <size name="36" length="222.5"></size>
+    <size name="36.5" length="227.5"></size>
+    <size name="37.5" length="232.5"></size>
+    <size name="38" length="237.5"></size>
+    <size name="38.5" length="242.5"></size>
+    <size name="39" length="247.5"></size>
+    <size name="39.5" length="252.5"></size>
+    <size name="40" length="257.5"></size>
+    <size name="41" length="262.5"></size>
+    <size name="41.5" length="267.5"></size>
+    <size name="42" length="272.5"></size>
+    <size name="42.5" length="277.5"></size>
+    <size name="43" length="282.5"></size>
+    <size name="44" length="287.5"></size>
+    <size length="292.5"></size>
+  </system>
+  <system name="Child">
+    <size name="16" length="65.0"></size>
+    <size name="17" length="75.0"></size>
+    <size name="18" length="85.0"></size>
+    <size name="19" length="95.0"></size>
+    <size name="20" length="105.0"></size>
+    <size name="22" length="115.0"></size>
+    <size name="22.5" length="122.5"></size>
+    <size name="23.5" length="127.5"></size>
+    <size name="24" length="132.5"></size>
+    <size name="25" length="137.5"></size>
+    <size name="25.5" length="142.5"></size>
+    <size name="26" length="147.5"></size>
+    <size name="26.5" length="152.5"></size>
+    <size name="27" length="157.5"></size>
+    <size name="27.5" length="162.5"></size>
+    <size name="28" length="167.5"></size>
+    <size name="28.5" length="172.5"></size>
+    <size name="29.5" length="177.5"></size>
+    <size name="30" length="182.5"></size>
+    <size name="31" length="187.5"></size>
+    <size name="31.5" length="192.5"></size>
+    <size name="32" length="197.5"></size>
+    <size name="33" length="202.5"></size>
+    <size name="33.5" length="207.5"></size>
+    <size name="34" length="212.5"></size>
+    <size name="35" length="217.5"></size>
+    <size name="35.5" length="222.5"></size>
+    <size name="36" length="227.5"></size>
+    <size name="36.5" length="232.5"></size>
+    <size name="37.5" length="237.5"></size>
+    <size name="38" length="242.5"></size>
+    <size name="38.5" length="247.5"></size>
+    <size length="252.5"></size>
+  </system>
+</sizings>

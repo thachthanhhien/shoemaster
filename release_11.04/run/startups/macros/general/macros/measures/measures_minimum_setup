@@ -1,0 +1,17 @@
+$(
+ *  TITLE               MEASURES MINIMUM SETUP
+ *  FUNCTION            Set up the minimum set of 3d last measures
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure define clear
+
+last measure define Stick      'Stick Length' key StickLengthClarks summary profile 'stick_length' distance 'Backcurve Swell Point (Clarks)' groundrest 'Toe Swell Point' groundrest
+last measure define HeelWidth  'Heel Width'   key HeelWidthClarks   distance 'Inside Heel Width Point (Clarks)' 'Outside Heel Width Point (Clarks)'
+last measure define Joint      'Joint Girth'  key JointGirth        profile 'joint_girth' plane thickness perimeter 'Inside Last Grading Point' 'Outside Last Grading Point' 'Centre Last Grading Point'
+last measure define BlockPitch 'Block Pitch'  key BlockPitch        distance 'Heel Point' 'Heel Point' tno
+last measure define BigToeDepth 'Big Toe Depth (Clarks)'                key BigToeDepth             distance 'Big Toe Point (Clarks)' 'Big Toe Depth Point (Clarks)'
+$.

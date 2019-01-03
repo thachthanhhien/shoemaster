@@ -1,0 +1,29 @@
+$(
+ *  TITLE               MOCCASIN TRANSFER
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+surface current /shell; new line twod; xy 0 0 ;xy 250 0; accept;set line inner
+surface current /last;for line all [if line inner[set line surface transfer shell;set line inner]]
+for line all [if line outer[set line surface transfer shell;set line outer]]
+line -6;duplicate 9004;set line outer; set line surface transfer shell
+line -8;duplicate 9003;set line outer; set line surface transfer shell
+line -4;duplicate 9001;set line inner; set line surface transfer shell
+line -3;duplicate 9002;set line outer; set line surface transfer shell
+line -1;duplicate 9000;set line surface transfer shell;line 9000; set line inner; split line xy 0 0
+line 9000; set line outer
+line 9005; set line outer
+line 9006; set line outer
+surface current /shell;draw all lines twod current   
+scale to 0.750000
+page; draw all lines twod current
+layer 'Stitch A' invisible
+layer 'Stitch B' invisible
+layer 'Stitch C' invisible;graphics update
+page; draw all lines twod current
+$m //release/run/startups/macros/general/macros/colour_macro_initial
+$.

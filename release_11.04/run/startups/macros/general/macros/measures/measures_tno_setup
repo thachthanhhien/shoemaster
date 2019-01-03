@@ -1,0 +1,31 @@
+$(
+ *  TITLE               MEASURES TNO SETUP
+ *  FUNCTION            Set up the TNO 3d last measures
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure define clear
+
+last measure define             'Last Length'                 key LastLength              distance 'LM7 (TNO)' last tno 'Toe Point' last tno
+last measure define             'Stick Length (TNO)'          key StickLengthTNO          distance 'Toe Point' 'LM7 (TNO)'
+last measure define             'Heel to Central Ball Length' key HeelToCentralBallLength distance 'LM7 (TNO)' last tno 'Inside (Medial) Joint Point' mid 'Outside (Lateral) Joint Point' last tno
+last measure define             'Centre Ball to Toe Length'   key CentralBallToToeLength  distance 'Toe Point' last tno 'Inside (Medial) Joint Point' mid 'Outside (Lateral) Joint Point' last tno
+last measure define Stick       'Stick Length (Clarks)'       key StickLengthClarks       profile 'stick_length' distance 'Backcurve Swell Point (Clarks)' groundrest 'Toe Swell Point' groundrest
+last measure define             'Ball Width'                  key BallWidth               distance 'Inside (Medial) Joint Point' tno 'Outside (Lateral) Joint Point' tno
+last measure define HeelWidth   'Heel Width'                  key HeelWidthTNO            distance 'Medial Heel Point (TNO)' tno 'Lateral Heel Point (TNO)' tno
+last measure define             'Toe Girth'                   key ToeGirth                profile 'toe_girth' plane perimeter 'Inside (Medial) Joint Point' tno last 105
+last measure define             'Ball Girth'                  key BallGirth               profile 'ball_girth' plane perimeter 'Inside (Medial) Joint Point' 'Outside (Lateral) Joint Point' ground 75
+last measure define             'Waist Girth'                 key WaistGirth              profile 'waist_girth' plane perimeter 'Central Joint Girth Point (TNO)' 'Waist Girth Point (TNO)' last
+last measure define             'Instep Girth'                key InstepGirthTNO          profile 'instep_girth' plane perimeter 'Instep Point (TNO)' 'Instep Girth Point (TNO)' last
+last measure define             'Heel Girth (Short)'          key ShortHeelGirth          profile 'short_heel_girth' plane perimeter 'Instep Point (TNO)' 'Heel Offset Point' last
+last measure define             'Heel Girth (Long)'           key LongHeelGirth           profile 'long_heel_girth' plane perimeter 'Central Joint Girth Point (TNO)' 'Heel Offset Point' last
+last measure define             'Ball-Heel-Ball Girth'        key BallHeelBallGirth       profile 'ball_heel_ball_girth' plane trimmed 'Inside (Medial) Joint Point' 'Outside (Lateral) Joint Point' 'Back Height Point'
+last measure define Joint       'Joint Girth'                 key JointGirth              profile 'joint_girth' plane thickness perimeter 'Inside Last Grading Point' 'Outside Last Grading Point' 'Centre Last Grading Point'
+last measure define             'Heel Raise'                  key HeelRaise               distance 'Central Heel Point (TNO)' 'Central Heel Point (TNO)' tno
+last measure define BlockPitch  'Block Pitch'                 key BlockPitch              distance 'Heel Point' 'Heel Point' tno
+
+
+$.

@@ -1,0 +1,105 @@
+$(
+ *  TITLE               SPECSHEET FORM Print Layout File
+ *  FUNCTION            Spec Sheet Form for Shoemaster headed paper
+ *                      
+ *  AUTHOR              Ben Bowskill   18 Apr   2001 CSM3D      
+ *  MODIFICATIONS
+ *
+$)
+
+$( Clear any stored formats $)
+
+graphics print formatted clear
+
+
+$( Definitions $)
+
+graphics print formatted column 'PW' 198
+graphics print formatted row 'PH' 286
+
+graphics print formatted column 'TITLE-X' 136
+graphics print formatted row 'TITLE-Y' 277
+
+graphics print formatted column 'H-COL1' 3
+graphics print formatted column 'H-COL2' 74
+graphics print formatted column 'H-COL3' 102
+
+graphics print formatted row 'H-ROW1' 267
+graphics print formatted row 'H-ROW2' 146
+graphics print formatted row 'H-ROW3' 83
+graphics print formatted row 'H-ROW4' 20
+
+graphics print formatted column 'DH-COL1' 1.5
+graphics print formatted column 'DH-COL2' 18
+
+graphics print formatted row 'DH-ROW1' 260
+graphics print formatted row 'DH-ROW2' 255
+graphics print formatted row 'DH-ROW3' 250
+graphics print formatted row 'DH-ROW4' 245
+graphics print formatted row 'DH-ROW5' 240
+graphics print formatted row 'DH-ROW6' 235
+graphics print formatted row 'DH-ROW7' 230
+graphics print formatted row 'DH-ROW8' 225
+graphics print formatted row 'DH-ROW9' 220
+graphics print formatted row 'DH-ROW10' 215
+graphics print formatted row 'DH-ROW11' 210
+graphics print formatted row 'DH-ROW12' 205
+graphics print formatted row 'DH-ROW13' 200
+
+graphics print formatted column 'DD-COL1' 3
+graphics print formatted column 'DD-COL2' 33
+graphics print formatted column 'DD-COL3' 102
+graphics print formatted column 'DD-COL4' 132
+
+graphics print formatted row 'DD-ROW1' 120.5
+graphics print formatted row 'DD-ROW2' 57.5
+graphics print formatted row 'DD-ROW3' 13.5
+
+
+$( Titles $)
+
+$( All Titles are generated within the code, because they are translated $)
+
+
+$( Fonts $)
+
+graphics print formatted add font size 18 bold justify centre 'TITLE-X' 'TITLE-Y'
+
+graphics print formatted add font size 12 bold justify left 'H-COL1' 'H-ROW1'
+graphics print formatted add font size 12 bold justify right 'H-COL2' 'H-ROW1'
+graphics print formatted add font size 15 bold justify left 'ALL' 'H-ROW2'
+graphics print formatted add font size 15 bold justify left 'ALL' 'H-ROW3'
+graphics print formatted add font size 15 bold justify left 'ALL' 'H-ROW4'
+
+graphics print formatted add font size 6 bold justify left 'DH-COL1' 'ALL'
+graphics print formatted add font size 6 normal justify left 'DH-COL2' 'ALL'
+
+graphics print formatted add font bold justify left 'DD-COL1' 'DD-ROW1'
+graphics print formatted add font bold justify left 'DD-COL1' 'DD-ROW2'
+graphics print formatted add font normal justify left 'DD-COL1' 'DD-ROW3'
+
+graphics print formatted add font normal justify left 'DD-COL2' 'DD-ROW1'
+graphics print formatted add font normal justify left 'DD-COL2' 'DD-ROW2'
+
+graphics print formatted add font bold justify left 'DD-COL3' 'DD-ROW1'
+graphics print formatted add font bold justify left 'DD-COL3' 'DD-ROW2'
+
+graphics print formatted add font normal justify left 'DD-COL4' 'DD-ROW1'
+graphics print formatted add font normal justify left 'DD-COL4' 'DD-ROW2'
+
+
+$( Lines $)
+
+graphics print formatted add line 76 'PH' to 'PW' 'PH'
+graphics print formatted add line 'PW' 'PH' to 'PW' 1
+graphics print formatted add line 'PW' 1 to 0 1
+graphics print formatted add line 0 1 to 0 274
+graphics print formatted add line 0 274 to 'PW' 274
+graphics print formatted add line 0 152 to 'PW' 152
+graphics print formatted add line 0 89 to 'PW' 89
+graphics print formatted add line 0 26 to 'PW' 26
+graphics print formatted add line 99 26 to 99 152
+graphics print formatted add line 76 'PH' to 76 265
+graphics print formatted add line 76 265 to 0 265
+
+$.

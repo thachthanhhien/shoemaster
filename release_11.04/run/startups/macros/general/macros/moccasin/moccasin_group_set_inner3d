@@ -1,0 +1,12 @@
+$(
+ *  TITLE               MOCCASIN GROUP SET INNER3D
+ *  FUNCTION            
+ *                      
+ *  AUTHOR              Patrick Brooke  1 Mar   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+grouping new
+for line all [if line inner [grouping add]]
+$.

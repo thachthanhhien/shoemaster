@@ -1,0 +1,14 @@
+$(
+ *  TITLE               STARTUP 3D
+ *  FUNCTION            General startup for 3d measures / reference points / last library
+ *
+ *  AUTHOR              Patrick Brooke 13 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure thickness 0.6
+
+$m //release/run/startups/macros/general/macros/measures/reference_points_3d
+$m //release/run/startups/macros/general/macros/measures/last_measure_parameters
+$m //release/run/startups/macros/general/macros/measures/measures_minimum_setup

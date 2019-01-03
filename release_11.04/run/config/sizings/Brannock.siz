@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sizings>
+  <system name="Adult Male">
+    <size name="5" length="226.5">
+      <fit name="a" width="70.2" />
+      <fit name="b" width="74.9" />
+      <fit name="c" width="79.7" />
+      <fit name="d" width="84.5" />
+      <fit name="e" width="89.2" />
+      <fit name="ee" width="94.0" />
+      <fit name="eee" width="98.7" />
+      <fit name="eeee" width="103.5" />
+      <fit width="108.3" />
+    </size>
+    <size name="5.5" length="230.8">
+      <fit name="a" width="71.8" />
+      <fit name="b" width="76.5" />
+      <fit name="c" width="81.3" />
+      <fit name="d" width="86.1" />
+      <fit name="e" width="90.8" />
+      <fit name="ee" width="95.6" />
+      <fit name="eee" width="100.3" />
+      <fit name="eeee" width="105.1" />
+      <fit width="109.9" />
+    </size>
+    <size name="6" length="235.0">
+      <fit name="a" width="73.4" />
+      <fit name="b" width="78.1" />
+      <fit name="c" width="82.9" />
+      <fit name="d" width="87.6" />
+      <fit name="e" width="92.4" />
+      <fit name="ee" width="97.2" />
+      <fit name="eee" width="101.9" />
+      <fit name="eeee" width="106.7" />
+      <fit width="111.4" />
+    </size>
+    <size name="6.5" length="239.2">
+      <fit name="a" width="75.0" />
+      <fit name="b" width="79.7" />
+      <fit name="c" width="84.5" />
+      <fit name="d" width="89.2" />
+      <fit name="e" width="94.0" />
+      <fit name="ee" width="98.8" />
+      <fit name="eee" width="103.5" />
+      <fit name="eeee" width="108.3" />
+      <fit width="113.0" />
+    </size>
+    <size name="7" length="243.4">
+      <fit name="a" width="76.5" />
+      <fit name="b" width="81.3" />
+      <fit name="c" width="86.1" />
+      <fit name="d" width="90.8" />
+      <fit name="e" width="95.6" />
+      <fit name="ee" width="100.3" />
+      <fit name="eee" width="105.1" />
+      <fit name="eeee" width="109.9" />
+      <fit width="114.6" />
+    </size>
+    <size name="7.5" length="247.7">
+      <fit name="a" width="78.1" />
+      <fit name="b" width="82.9" />
+      <fit name="c" width="87.7" />
+      <fit name="d" width="92.4" />
+      <fit name="e" width="97.2" />
+      <fit name="ee" width="101.9" />
+      <fit name="eee" width="106.7" />
+      <fit name="eeee" width="111.5" />
+      <fit width="116.2" />
+    </size>
+    <size name="8" length="251.9">
+      <fit name="a" width="79.7" />
+      <fit name="b" width="84.5" />
+      <fit name="c" width="89.2" />
+      <fit name="d" width="94.0" />
+      <fit name="e" width="98.8" />
+      <fit name="ee" width="103.5" />
+      <fit name="eee" width="108.3" />
+      <fit name="eeee" width="113.0" />
+      <fit width="117.8" />
+    </size>
+    <size name="8.5" length="256.1">
+      <fit name="a" width="81.3" />
+      <fit name="b" width="86.1" />
+      <fit name="c" width="90.8" />
+      <fit name="d" width="95.6" />
+      <fit name="e" width="100.4" />
+      <fit name="ee" width="105.1" />
+      <fit name="eee" width="109.9" />
+      <fit name="eeee" width="114.6" />
+      <fit width="119.4" />
+    </size>
+    <size name="9" length="260.4">
+      <fit name="a" width="82.9" />
+      <fit name="b" width="87.7" />
+      <fit name="c" width="92.4" />
+      <fit name="d" width="97.2" />
+      <fit name="e" width="101.9" />
+      <fit name="ee" width="106.7" />
+      <fit name="eee" width="111.5" />
+      <fit name="eeee" width="116.2" />
+      <fit width="121.0" />
+    </size>
+    <size name="9.5" length="264.6">
+      <fit name="a" width="84.5" />
+      <fit name="b" width="89.3" />
+      <fit name="c" width="94.0" />
+      <fit name="d" width="98.8" />
+      <fit name="e" width="103.5" />
+      <fit name="ee" width="108.3" />
+      <fit name="eee" width="113.1" />
+      <fit name="eeee" width="117.8" />
+      <fit width="122.6" />
+    </size>
+    <size name="10" length="268.8">
+      <fit name="a" width="86.1" />
+      <fit name="b" width="90.8" />
+      <fit name="c" width="95.6" />
+      <fit name="d" width="100.4" />
+      <fit name="e" width="105.1" />
+      <fit name="ee" width="109.9" />
+      <fit name="eee" width="114.6" />
+      <fit name="eeee" width="119.4" />
+      <fit width="124.2" />
+    </size>
+    <size name="10.5" length="273.1">
+      <fit name="a" width="87.7" />
+      <fit name="b" width="92.4" />
+      <fit name="c" width="97.2" />
+      <fit name="d" width="102.0" />
+      <fit name="e" width="106.7" />
+      <fit name="ee" width="111.5" />
+      <fit name="eee" width="116.2" />
+      <fit name="eeee" width="121.0" />
+      <fit width="125.8" />
+    </size>
+    <size name="11" length="277.3">
+      <fit name="a" width="89.3" />
+      <fit name="b" width="94.0" />
+      <fit name="c" width="98.8" />
+      <fit name="d" width="103.5" />
+      <fit name="e" width="108.3" />
+      <fit name="ee" width="113.1" />
+      <fit name="eee" width="117.8" />
+      <fit name="eeee" width="122.6" />
+      <fit width="127.3" />
+    </size>
+    <size name="11.5" length="281.5">
+      <fit name="a" width="90.9" />
+      <fit name="b" width="95.6" />
+      <fit name="c" width="100.4" />
+      <fit name="d" width="105.1" />
+      <fit name="e" width="109.9" />
+      <fit name="ee" width="114.7" />
+      <fit name="eee" width="119.4" />
+      <fit name="eeee" width="124.2" />
+      <fit width="128.9" />
+    </size>
+    <size name="12" length="285.7">
+      <fit name="a" width="92.4" />
+      <fit name="b" width="97.2" />
+      <fit name="c" width="102.0" />
+      <fit name="d" width="106.7" />
+      <fit name="e" width="111.5" />
+      <fit name="ee" width="116.2" />
+      <fit name="eee" width="121.0" />
+      <fit name="eeee" width="125.8" />
+      <fit width="130.5" />
+    </size>
+    <size name="12.5" length="290.0">
+      <fit name="a" width="94.0" />
+      <fit name="b" width="98.8" />
+      <fit name="c" width="103.6" />
+      <fit name="d" width="108.3" />
+      <fit name="e" width="113.1" />
+      <fit name="ee" width="117.8" />
+      <fit name="eee" width="122.6" />
+      <fit name="eeee" width="127.4" />
+      <fit width="132.1" />
+    </size>
+    <size name="13" length="294.2">
+      <fit name="a" width="95.6" />
+      <fit name="b" width="100.4" />
+      <fit name="c" width="105.1" />
+      <fit name="d" width="109.9" />
+      <fit name="e" width="114.7" />
+      <fit name="ee" width="119.4" />
+      <fit name="eee" width="124.2" />
+      <fit name="eeee" width="128.9" />
+      <fit width="133.7" />
+    </size>
+    <size name="14" length="300.6">
+      <fit name="a" width="98.8" />
+      <fit name="b" width="103.6" />
+      <fit name="c" width="108.3" />
+      <fit name="d" width="113.1" />
+      <fit name="e" width="117.8" />
+      <fit name="ee" width="122.6" />
+      <fit name="eee" width="127.4" />
+      <fit name="eeee" width="132.1" />
+      <fit width="136.9" />
+    </size>
+    <size length="309.0"></size>
+  </system>
+  <system name="Adult Female">
+    <size name="4.5" length="213.8">
+      <fit name="a" width="70.2" />
+      <fit name="b" width="74.9" />
+      <fit name="c" width="79.7" />
+      <fit name="d" width="84.5" />
+      <fit name="e" width="89.2" />
+      <fit name="ee" width="94.0" />
+      <fit name="eee" width="98.7" />
+      <fit name="eeee" width="103.5" />
+      <fit width="108.3" />
+    </size>
+    <size name="5" length="218.1">
+      <fit name="a" width="71.8" />
+      <fit name="b" width="76.5" />
+      <fit name="c" width="81.3" />
+      <fit name="d" width="86.0" />
+      <fit name="e" width="90.8" />
+      <fit name="ee" width="95.6" />
+      <fit name="eee" width="100.3" />
+      <fit name="eeee" width="105.1" />
+      <fit width="109.8" />
+    </size>
+    <size name="5.5" length="222.3">
+      <fit name="a" width="73.4" />
+      <fit name="b" width="78.1" />
+      <fit name="c" width="82.9" />
+      <fit name="d" width="87.6" />
+      <fit name="e" width="92.4" />
+      <fit name="ee" width="97.2" />
+      <fit name="eee" width="101.9" />
+      <fit name="eeee" width="106.7" />
+      <fit width="111.4" />
+    </size>
+    <size name="6" length="226.5">
+      <fit name="a" width="74.9" />
+      <fit name="b" width="79.7" />
+      <fit name="c" width="84.5" />
+      <fit name="d" width="89.2" />
+      <fit name="e" width="94.0" />
+      <fit name="ee" width="98.7" />
+      <fit name="eee" width="103.5" />
+      <fit name="eeee" width="108.3" />
+      <fit width="113.0" />
+    </size>
+    <size name="6.5" length="230.8">
+      <fit name="a" width="76.5" />
+      <fit name="b" width="81.3" />
+      <fit name="c" width="86.1" />
+      <fit name="d" width="90.8" />
+      <fit name="e" width="95.6" />
+      <fit name="ee" width="100.3" />
+      <fit name="eee" width="105.1" />
+      <fit name="eeee" width="109.9" />
+      <fit width="114.6" />
+    </size>
+    <size name="7" length="235.0">
+      <fit name="a" width="78.1" />
+      <fit name="b" width="82.9" />
+      <fit name="c" width="87.6" />
+      <fit name="d" width="92.4" />
+      <fit name="e" width="97.2" />
+      <fit name="ee" width="101.9" />
+      <fit name="eee" width="106.7" />
+      <fit name="eeee" width="111.4" />
+      <fit width="116.2" />
+    </size>
+    <size name="7.5" length="239.2">
+      <fit name="a" width="79.7" />
+      <fit name="b" width="84.5" />
+      <fit name="c" width="89.2" />
+      <fit name="d" width="94.0" />
+      <fit name="e" width="98.8" />
+      <fit name="ee" width="103.5" />
+      <fit name="eee" width="108.3" />
+      <fit name="eeee" width="113.0" />
+      <fit width="117.8" />
+    </size>
+    <size name="8" length="243.4">
+      <fit name="a" width="81.3" />
+      <fit name="b" width="86.1" />
+      <fit name="c" width="90.8" />
+      <fit name="d" width="95.6" />
+      <fit name="e" width="100.3" />
+      <fit name="ee" width="105.1" />
+      <fit name="eee" width="109.9" />
+      <fit name="eeee" width="114.6" />
+      <fit width="119.4" />
+    </size>
+    <size name="8.5" length="247.7">
+      <fit name="a" width="82.9" />
+      <fit name="b" width="87.7" />
+      <fit name="c" width="92.4" />
+      <fit name="d" width="97.2" />
+      <fit name="e" width="101.9" />
+      <fit name="ee" width="106.7" />
+      <fit name="eee" width="111.5" />
+      <fit name="eeee" width="116.2" />
+      <fit width="121.0" />
+    </size>
+    <size name="9" length="251.9">
+      <fit name="a" width="84.5" />
+      <fit name="b" width="89.2" />
+      <fit name="c" width="94.0" />
+      <fit name="d" width="98.8" />
+      <fit name="e" width="103.5" />
+      <fit name="ee" width="108.3" />
+      <fit name="eee" width="113.0" />
+      <fit name="eeee" width="117.8" />
+      <fit width="122.6" />
+    </size>
+    <size name="9.5" length="256.1">
+      <fit name="a" width="86.1" />
+      <fit name="b" width="90.8" />
+      <fit name="c" width="95.6" />
+      <fit name="d" width="100.4" />
+      <fit name="e" width="105.1" />
+      <fit name="ee" width="109.9" />
+      <fit name="eee" width="114.6" />
+      <fit name="eeee" width="119.4" />
+      <fit width="124.2" />
+    </size>
+    <size name="10" length="260.4">
+      <fit name="a" width="87.7" />
+      <fit name="b" width="92.4" />
+      <fit name="c" width="97.2" />
+      <fit name="d" width="101.9" />
+      <fit name="e" width="106.7" />
+      <fit name="ee" width="111.5" />
+      <fit name="eee" width="116.2" />
+      <fit name="eeee" width="121.0" />
+      <fit width="125.7" />
+    </size>
+    <size name="10.5" length="264.6">
+      <fit name="a" width="89.3" />
+      <fit name="b" width="94.0" />
+      <fit name="c" width="98.8" />
+      <fit name="d" width="103.5" />
+      <fit name="e" width="108.3" />
+      <fit name="ee" width="113.1" />
+      <fit name="eee" width="117.8" />
+      <fit name="eeee" width="122.6" />
+      <fit width="127.3" />
+    </size>
+    <size name="11" length="268.8">
+      <fit name="a" width="90.8" />
+      <fit name="b" width="95.6" />
+      <fit name="c" width="100.4" />
+      <fit name="d" width="105.1" />
+      <fit name="e" width="109.9" />
+      <fit name="ee" width="114.6" />
+      <fit name="eee" width="119.4" />
+      <fit name="eeee" width="124.2" />
+      <fit width="128.9" />
+    </size>
+    <size name="11.5" length="273.1">
+      <fit name="a" width="92.4" />
+      <fit name="b" width="97.2" />
+      <fit name="c" width="102.0" />
+      <fit name="d" width="106.7" />
+      <fit name="e" width="111.5" />
+      <fit name="ee" width="116.2" />
+      <fit name="eee" width="121.0" />
+      <fit name="eeee" width="125.8" />
+      <fit width="130.5" />
+    </size>
+    <size name="12" length="277.3">
+      <fit name="a" width="94.0" />
+      <fit name="b" width="98.8" />
+      <fit name="c" width="103.5" />
+      <fit name="d" width="108.3" />
+      <fit name="e" width="113.1" />
+      <fit name="ee" width="117.8" />
+      <fit name="eee" width="122.6" />
+      <fit name="eeee" width="127.3" />
+      <fit width="132.1" />
+    </size>
+    <size name="12.5" length="281.5">
+      <fit name="a" width="95.6" />
+      <fit name="b" width="100.4" />
+      <fit name="c" width="105.1" />
+      <fit name="d" width="109.9" />
+      <fit name="e" width="114.7" />
+      <fit name="ee" width="119.4" />
+      <fit name="eee" width="124.2" />
+      <fit name="eeee" width="128.9" />
+      <fit width="133.7" />
+    </size>
+    <size name="13" length="285.7">
+      <fit name="a" width="97.2" />
+      <fit name="b" width="102.0" />
+      <fit name="c" width="106.7" />
+      <fit name="d" width="111.5" />
+      <fit name="e" width="116.2" />
+      <fit name="ee" width="121.0" />
+      <fit name="eee" width="125.8" />
+      <fit name="eeee" width="130.5" />
+      <fit width="135.3" />
+    </size>
+    <size length="290.0"></size>
+  </system>
+</sizings>

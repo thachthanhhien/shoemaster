@@ -1,0 +1,206 @@
+$(
+ *  TITLE               INTERFACE COMMUNICATIONS
+ *  FUNCTION            general interface communication setup
+ *
+ *  AUTHOR              Nigel Blower   20 Nov   1996 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+communications port /com1 add
+communications port /com2 add
+
+communications device 'Graphtec'         add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on  units 40.0 offset 0 0 arc 5 15 3 knife 2 nosettings ink 3 nosettings tool 4 nosettings
+communications device 'Graphtec'         settings startup '\033.I80;\\;17:\033.N;19:IN;PU;SP0;PA0,0;\n' finish 'PU;PA0,0;SP 0;' extension 'hpg'
+communications device 'HP 7475'          add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on  units 40.2 offset 0 0 arc 5 15 3 knife none ink 1 nosettings tool none
+communications device 'HP 7475'          settings startup '\033.I80;\\;17:\033.N;19:IN;PU;SP0;PA0,0;\n' finish 'PU;PA0,0;SP 0;' extension 'hpg'
+communications device 'HP 7580'          add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on  units 40.2 offset 0 0 arc 5 15 3 knife none ink 1 nosettings tool none
+communications device 'HP 7580'          settings startup '\033.I80;\\;17:\033.N;19:IN;PU;SP0;PA0,0;\nSC0,31000,0,20000;\n' finish 'PU;PA0,0;SP 0;' extension 'hpg'
+communications device 'HP plotter'       add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on  units 40.0 offset 0 0 arc 5 15 3 knife none ink 1 nosettings tool none
+communications device 'HP plotter'       settings startup '\033.I80;\\;17:\033.N;19:IN;PU;SP0;PA0,0;\n' finish 'PU;PA0,0;SP 0;' extension 'hpg'
+communications device 'Nestor'           add settings speed 9600 bits eight stop one nlcr off parity off parity even rts off xon off units 1.0 offset 0 0 arc 5 15 3 knife none ink 3 nosettings tool none extension 'shm'
+communications device 'P4CN'             add settings speed 9600 bits eight stop one nlcr off parity off parity even rts off xon off units 1.0 offset 0 0 arc 5 15 3 knife none ink 3 nosettings tool none extension 'nst'
+communications device 'Postscript'       add settings speed 9600 bits eight stop one nlcr off parity off parity even rts off xon off units 1.0 offset 5 5 arc 5 15 3 knife none ink 1 nosettings tool none extension 'ps'
+communications device 'Roland'           add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on units 40.0 offset 0 0 arc 5 15 3 knife none ink 1 nosettings tool none
+communications device 'Roland'           settings startup 'IN;PU;SP0;PA0,0;\nSC0,21200,0,15200;\n' finish 'PU;PA0,0;SP 0;' extension 'hpg'
+communications device 'Satrasumm'        add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon off units 1.0 offset 0 0 arc 5 15 3 knife none ink 3 nosettings tool none extension 'plt'
+communications device 'Sei'              add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on units 40.0 offset 0 0 arc 5 15 3 knife 1 nosettings ink 2 nosettings tool 1 nosettings
+communications device 'Sei'              settings startup '\033.I80;\\;17:\033.N;19:IN;PU;SP0;PA0,0;\nSC0,31000,0,20000;\n' finish 'PU;PA0,0;SP 0;' extension 'hpg'
+communications device 'Wild TA100'       add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on units 40.0 offset 0 0 arc 5 15 3 knife 2 ink 3 tool 4 finish 'PU;PA0,0;SP 0;' extension 'hpg'
+communications device 'Wild TA10BL'      add settings speed 9600 bits eight stop one nlcr on parity off parity even rts on xon off units 25.0 offset 0 0 arc 5 15 3 knife 2 ink 3 tool 4 startup ':83\n' finish 'U44200,10000\n:B1\nU44200,10000\n:B1\n\0\n'
+communications device 'Wild cutter'      add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on units 50.0 offset 0 0 arc 5.0 90.0 2.01 knife 4 ink 3 tool 2 startup ':83\n' finish 'U44200,10000\n:B1\nU44200,10000\n:B1\n\0\n'
+communications device 'Zund'             add settings speed 9600 bits eight stop one nlcr on parity off parity even rts off xon on units 100.0 offset 0 0 arc 5 15 3 knife 1 ink 2 tool 4 startup 'PU;PA0,0;\n' finish 'PU;PA0,0;SP 0;' extension 'hpg'
+
+communications device 'Zund'             settings ink   angle for auto pen lift         -1
+communications device 'Zund'             settings ink   acceleration                     4
+communications device 'Zund'             settings ink   delay before up                  1
+communications device 'Zund'             settings ink   delay before down                1
+communications device 'Zund'             settings ink   delay after up                   1
+communications device 'Zund'             settings ink   delay after down                 1  
+communications device 'Zund'             settings ink   speed in up position            50
+communications device 'Zund'             settings ink   speed in down position          50
+communications device 'Zund'             settings ink   quality                       none
+communications device 'Zund'             settings ink   mill startup delay            none
+communications device 'Zund'             settings ink   mill distance to raise tool   none
+communications device 'Zund'             settings ink   mill distance to lower tool   none
+communications device 'Zund'             settings ink   mill speed when raising tool  none
+communications device 'Zund'             settings ink   mill speed when lowering tool none
+communications device 'Zund'             settings knife angle for auto pen lift         45
+communications device 'Zund'             settings knife acceleration                     4
+communications device 'Zund'             settings knife delay before up                100
+communications device 'Zund'             settings knife delay before down              100
+communications device 'Zund'             settings knife delay after up                  50
+communications device 'Zund'             settings knife delay after down               200  
+communications device 'Zund'             settings knife speed in up position            50
+communications device 'Zund'             settings knife speed in down position          50
+communications device 'Zund'             settings knife quality                       none
+communications device 'Zund'             settings knife mill startup delay            none
+communications device 'Zund'             settings knife mill distance to raise tool   none
+communications device 'Zund'             settings knife mill distance to lower tool   none
+communications device 'Zund'             settings knife mill speed when raising tool  none
+communications device 'Zund'             settings knife mill speed when lowering tool none
+communications device 'Zund'             settings tool  angle for auto pen lift         -1
+communications device 'Zund'             settings tool  acceleration                     2
+communications device 'Zund'             settings tool  delay before up                350
+communications device 'Zund'             settings tool  delay before down              350
+communications device 'Zund'             settings tool  delay after up                 350
+communications device 'Zund'             settings tool  delay after down               350  
+communications device 'Zund'             settings tool  speed in up position            50
+communications device 'Zund'             settings tool  speed in down position           7
+communications device 'Zund'             settings tool  quality                       none
+communications device 'Zund'             settings tool  mill startup delay            none
+communications device 'Zund'             settings tool  mill distance to raise tool   none
+communications device 'Zund'             settings tool  mill distance to lower tool   none
+communications device 'Zund'             settings tool  mill speed when raising tool  none
+communications device 'Zund'             settings tool  mill speed when lowering tool none
+
+communications device 'Wild Cutter'      settings ink   angle for auto pen lift         -1
+communications device 'Wild Cutter'      settings ink   acceleration                     1
+communications device 'Wild Cutter'      settings ink   delay before up               none
+communications device 'Wild Cutter'      settings ink   delay before down               50
+communications device 'Wild Cutter'      settings ink   delay after up                  50
+communications device 'Wild Cutter'      settings ink   delay after down              none 
+communications device 'Wild Cutter'      settings ink   speed in up position            37
+communications device 'Wild Cutter'      settings ink   speed in down position          37
+communications device 'Wild Cutter'      settings ink   quality                       none
+communications device 'Wild Cutter'      settings ink   mill startup delay            none
+communications device 'Wild Cutter'      settings ink   mill distance to raise tool   none
+communications device 'Wild Cutter'      settings ink   mill distance to lower tool   none
+communications device 'Wild Cutter'      settings ink   mill speed when raising tool  none
+communications device 'Wild Cutter'      settings ink   mill speed when lowering tool none
+communications device 'Wild Cutter'      settings knife angle for auto pen lift         45
+communications device 'Wild Cutter'      settings knife acceleration                     1
+communications device 'Wild Cutter'      settings knife delay before up               none
+communications device 'Wild Cutter'      settings knife delay before down              200
+communications device 'Wild Cutter'      settings knife delay after up                 200
+communications device 'Wild Cutter'      settings knife delay after down              none
+communications device 'Wild Cutter'      settings knife speed in up position            37
+communications device 'Wild Cutter'      settings knife speed in down position          37
+communications device 'Wild Cutter'      settings knife quality                       none
+communications device 'Wild Cutter'      settings knife mill startup delay            none
+communications device 'Wild Cutter'      settings knife mill distance to raise tool   none
+communications device 'Wild Cutter'      settings knife mill distance to lower tool   none
+communications device 'Wild Cutter'      settings knife mill speed when raising tool  none
+communications device 'Wild Cutter'      settings knife mill speed when lowering tool none
+communications device 'Wild Cutter'      settings tool  angle for auto pen lift         -1
+communications device 'Wild Cutter'      settings tool  acceleration                     1
+communications device 'Wild Cutter'      settings tool  delay before up               none
+communications device 'Wild Cutter'      settings tool  delay before down              200
+communications device 'Wild Cutter'      settings tool  delay after up                 350
+communications device 'Wild Cutter'      settings tool  delay after down              none
+communications device 'Wild Cutter'      settings tool  speed in up position            37
+communications device 'Wild Cutter'      settings tool  speed in down position           5
+communications device 'Wild Cutter'      settings tool  quality                       none
+communications device 'Wild Cutter'      settings tool  mill startup delay            2000
+communications device 'Wild Cutter'      settings tool  mill distance to raise tool   none
+communications device 'Wild Cutter'      settings tool  mill distance to lower tool   none
+communications device 'Wild Cutter'      settings tool  mill speed when raising tool  none
+communications device 'Wild Cutter'      settings tool  mill speed when lowering tool none
+
+communications device 'Wild TA10BL'      settings ink   angle for auto pen lift         -1
+communications device 'Wild TA10BL'      settings ink   acceleration                     1
+communications device 'Wild TA10BL'      settings ink   delay before up               none
+communications device 'Wild TA10BL'      settings ink   delay before down               50
+communications device 'Wild TA10BL'      settings ink   delay after up                  50
+communications device 'Wild TA10BL'      settings ink   delay after down              none 
+communications device 'Wild TA10BL'      settings ink   speed in up position            37
+communications device 'Wild TA10BL'      settings ink   speed in down position          37
+communications device 'Wild TA10BL'      settings ink   quality                       none
+communications device 'Wild TA10BL'      settings ink   mill startup delay            none
+communications device 'Wild TA10BL'      settings ink   mill distance to raise tool   none
+communications device 'Wild TA10BL'      settings ink   mill distance to lower tool   none
+communications device 'Wild TA10BL'      settings ink   mill speed when raising tool  none
+communications device 'Wild TA10BL'      settings ink   mill speed when lowering tool none
+communications device 'Wild TA10BL'      settings knife angle for auto pen lift         45
+communications device 'Wild TA10BL'      settings knife acceleration                     1
+communications device 'Wild TA10BL'      settings knife delay before up               none
+communications device 'Wild TA10BL'      settings knife delay before down              200
+communications device 'Wild TA10BL'      settings knife delay after up                 200
+communications device 'Wild TA10BL'      settings knife delay after down              none
+communications device 'Wild TA10BL'      settings knife speed in up position            37
+communications device 'Wild TA10BL'      settings knife speed in down position          37
+communications device 'Wild TA10BL'      settings knife quality                       none
+communications device 'Wild TA10BL'      settings knife mill startup delay            none
+communications device 'Wild TA10BL'      settings knife mill distance to raise tool   none
+communications device 'Wild TA10BL'      settings knife mill distance to lower tool   none
+communications device 'Wild TA10BL'      settings knife mill speed when raising tool  none
+communications device 'Wild TA10BL'      settings knife mill speed when lowering tool none
+communications device 'Wild TA10BL'      settings tool  angle for auto pen lift         -1
+communications device 'Wild TA10BL'      settings tool  acceleration                     1
+communications device 'Wild TA10BL'      settings tool  delay before up               none
+communications device 'Wild TA10BL'      settings tool  delay before down              200
+communications device 'Wild TA10BL'      settings tool  delay after up                 350
+communications device 'Wild TA10BL'      settings tool  delay after down              none
+communications device 'Wild TA10BL'      settings tool  speed in up position            37
+communications device 'Wild TA10BL'      settings tool  speed in down position           5
+communications device 'Wild TA10BL'      settings tool  quality                       none
+communications device 'Wild TA10BL'      settings tool  mill startup delay            2000
+communications device 'Wild TA10BL'      settings tool  mill distance to raise tool   none
+communications device 'Wild TA10BL'      settings tool  mill distance to lower tool   none
+communications device 'Wild TA10BL'      settings tool  mill speed when raising tool  none
+communications device 'Wild TA10BL'      settings tool  mill speed when lowering tool none
+
+communications device 'Wild TA100'       settings ink   angle for auto pen lift         -1
+communications device 'Wild TA100'       settings ink   acceleration                     1
+communications device 'Wild TA100'       settings ink   delay before up                150
+communications device 'Wild TA100'       settings ink   delay before down               50
+communications device 'Wild TA100'       settings ink   delay after up                  50
+communications device 'Wild TA100'       settings ink   delay after down               200
+communications device 'Wild TA100'       settings ink   speed in up position            37
+communications device 'Wild TA100'       settings ink   speed in down position          37
+communications device 'Wild TA100'       settings ink   quality                        100
+communications device 'Wild TA100'       settings ink   mill startup delay            none
+communications device 'Wild TA100'       settings ink   mill distance to raise tool   none
+communications device 'Wild TA100'       settings ink   mill distance to lower tool   none
+communications device 'Wild TA100'       settings ink   mill speed when raising tool  none
+communications device 'Wild TA100'       settings ink   mill speed when lowering tool none
+communications device 'Wild TA100'       settings knife angle for auto pen lift         45
+communications device 'Wild TA100'       settings knife acceleration                     1
+communications device 'Wild TA100'       settings knife delay before up                150
+communications device 'Wild TA100'       settings knife delay before down              200
+communications device 'Wild TA100'       settings knife delay after up                 200
+communications device 'Wild TA100'       settings knife delay after down               200  
+communications device 'Wild TA100'       settings knife speed in up position            37
+communications device 'Wild TA100'       settings knife speed in down position          37
+communications device 'Wild TA100'       settings knife quality                        100
+communications device 'Wild TA100'       settings knife mill startup delay            none
+communications device 'Wild TA100'       settings knife mill distance to raise tool   none
+communications device 'Wild TA100'       settings knife mill distance to lower tool   none
+communications device 'Wild TA100'       settings knife mill speed when raising tool  none
+communications device 'Wild TA100'       settings knife mill speed when lowering tool none
+communications device 'Wild TA100'       settings tool  angle for auto pen lift         -1
+communications device 'Wild TA100'       settings tool  acceleration                     1
+communications device 'Wild TA100'       settings tool  delay before up                150
+communications device 'Wild TA100'       settings tool  delay before down              200
+communications device 'Wild TA100'       settings tool  delay after up                 200
+communications device 'Wild TA100'       settings tool  delay after down               200  
+communications device 'Wild TA100'       settings tool  speed in up position            50
+communications device 'Wild TA100'       settings tool  speed in down position           5
+communications device 'Wild TA100'       settings tool  quality                        100
+communications device 'Wild TA100'       settings tool  mill startup delay            none
+communications device 'Wild TA100'       settings tool  mill distance to raise tool    400
+communications device 'Wild TA100'       settings tool  mill distance to lower tool   -150
+communications device 'Wild TA100'       settings tool  mill speed when raising tool    20
+communications device 'Wild TA100'       settings tool  mill speed when lowering tool   10
+
+$.

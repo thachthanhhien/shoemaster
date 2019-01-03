@@ -1,0 +1,17 @@
+$(
+ *  TITLE               SHOEMASTER CREATIVE
+ *  FUNCTION            specific things for shoemaster creative
+ *
+ *  AUTHOR              Nigel Blower   19 Feb   2001 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/shoemaster_all
+
+packet default set 'Creative'
+
+$( QSM Startup Creative $)
+$n//release/run/startups/macros/advanced_macros/creative.ini
+
+$.

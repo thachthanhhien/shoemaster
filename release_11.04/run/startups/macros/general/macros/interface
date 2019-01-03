@@ -1,0 +1,30 @@
+$(
+ *  TITLE               INTERFACE startup
+ *  FUNCTION            
+ *
+ *  AUTHOR              Paul Bower     12 Sep   2001 CSM3D      
+ *  MODIFICATIONS
+ *
+$)
+
+graphics views mode twod on
+
+utilities macro directory /macros
+
+graphics print setup device default
+graphics print type plotting
+
+enable  nesting
+enable  vertical
+enable  text
+enable  uppercase
+enable  pause
+enable  punch cross
+enable  punch cut
+disable annotation
+
+dispose keep
+scale 1.0
+spacing 2
+
+$.

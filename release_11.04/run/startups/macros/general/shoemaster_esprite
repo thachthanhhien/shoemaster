@@ -1,0 +1,19 @@
+$(
+ *  TITLE               SHOEMASTER_ESPRITE
+ *  FUNCTION            specific things for shoemaster_esprite
+ *
+ *  AUTHOR              Patrick Brooke 20 Dec   2000 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+$m //release/run/startups/macros/general/macros/shoemaster_all
+
+$( set up tablet to generate piece auto-collection commands $)
+tablet using 21 
+tablet output /com1
+
+$( QSM Startup Esprite $)
+$n//release/run/startups/macros/advanced_macros/esprite.ini
+
+$.

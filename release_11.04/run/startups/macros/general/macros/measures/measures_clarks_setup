@@ -1,0 +1,37 @@
+$(
+ *  TITLE               MEASURES CLARKS SETUP
+ *  FUNCTION            Set up the Clarks 3d last measures
+ *                      
+ *  AUTHOR              Patrick Brooke 29 Jan   1998 Cambridge  
+ *  MODIFICATIONS
+ *
+$)
+
+last measure define clear
+
+last measure define             'Effective Length'             key EffectiveLength         distance 'Backcurve Swell Point (Clarks)' 'Effective Toe Point (Clarks)'
+last measure define Stick       'Stick Length'                 key StickLengthClarks       profile 'stick_length' distance 'Backcurve Swell Point (Clarks)' groundrest 'Toe Swell Point' groundrest
+last measure define             'Ring Width'                   key RingWidth               profile 'ring_width' plane ring 'Inside Ring Width Point' 'Outside Ring Width Point' 'Centre Ring Width Point'
+last measure define             'Tread Width'                  key TreadWidth              distance 'Inside Tread Width Point (Clarks)' 'Outside Tread Width Point (Clarks)'
+last measure define HeelWidth   'Heel Width'                   key HeelWidthClarks         distance 'Inside Heel Width Point (Clarks)' 'Outside Heel Width Point (Clarks)'
+last measure define Joint       'Joint Girth'                  key JointGirth              profile 'joint_girth' plane thickness perimeter 'Inside Last Grading Point' 'Outside Last Grading Point' 'Centre Last Grading Point'
+last measure define             'Instep Girth'                 key InstepGirthClarks       profile 'instep_girth_clarks' plane perimeter 'Inside Instep Point (Clarks)' 'Outside Instep Point (Clarks)' 'Instep Point (Clarks)'
+last measure define             'Toe Spring'                   key ToeSpring               distance 'Toe Point' 'Toe Point' tno
+last measure define BlockPitch  'Block Pitch'                  key BlockPitch              distance 'Heel Point' 'Heel Point' tno
+last measure define             'Toe Depth At Foot Length'     key ToeDepthAtFootLength    distance 'Foot Length Point (Clarks)' 'Toe Depth (Foot Length) Point (Clarks)'
+last measure define             'Toe Depth At Growth Room'     key ToeDepthAtGrowthRoom    distance 'Growth Room Point (Clarks)' 'Toe Depth (Growth Room) Point (Clarks)'
+last measure define             'Toe Depth At 90% Foot Length' key ToeDepthAtNinetyPercent distance '90% Foot Length Point (Clarks)' 'Toe Depth (90% Foot Length) Point (Clarks)'
+last measure define             'Big Toe'                      key BigToe                  plane inner 'Big Toe Point (Clarks)' 'Big Toe Depth Point (Clarks)' innerrest
+last measure define BigToeDepth 'Big Toe Depth'                key BigToeDepth             distance 'Big Toe Point (Clarks)' 'Big Toe Depth Point (Clarks)'
+last measure define             'Little Toe'                   key LittleToe               plane outer 'Little Toe Point (Clarks)' 'Little Toe Depth Point (Clarks)' innerrest
+last measure define             'Little Toe Depth'             key LittleToeDepth          distance 'Little Toe Point (Clarks)' 'Little Toe Depth Point (Clarks)'
+last measure define             'Heel To Centre Joint'         key HeelToCentreJoint       distance 'Backcurve Swell Point (Clarks)' 'Centre Last Grading Point'
+last measure define             'Heel To Outside Joint'        key HeelToOutsideJoint      distance 'Backcurve Swell Point (Clarks)' 'Outside Last Grading Point'
+last measure define             'Heel To Inside Joint'         key HeelToInsideJoint       distance 'Backcurve Swell Point (Clarks)' 'Inside Last Grading Point'
+last measure define             'Heel To Ball'                 key HeelToBall              distance 'Heel Point' 'Ball Point (Clarks)'
+last measure define             'Short Heel'                   key ShortBall               distance 'Heel Point' 'Instep Point (Clarks)'
+last measure define             'Ring Width % Of Joint Girth'  key RingWidthPercent        percentage 'Ring Width' 'Joint Girth'
+last measure define             'Tread Width % Of Joint Girth' key TreadWidthPercent       percentage 'Tread Width' 'Joint Girth'
+
+$.
+
